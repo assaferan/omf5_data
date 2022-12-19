@@ -1,0 +1,32 @@
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^23-134*x^22+8460*x^21-334616*x^20+9300135*x^19-193110415*x^18+3109287379*x^17-39770318403*x^16+410704838466*x^15-3461429480460*x^14+23971524207658*x^13-136911736032622*x^12+645507607368663*x^11-2508328552292487*x^10+7999692391390039*x^9-20792781766187615*x^8+43588650419163967*x^7-72618232919566312*x^6+94177384361685968*x^5-92322730601004072*x^4+65507084960354128*x^3-31409382059456032*x^2+8992394105005952*x-1143634016427520
+constructing eigenvector for poly
+x^10+18*x^9+115*x^8+292*x^7+45*x^6-1084*x^5-1538*x^4+931*x^2+186*x-139
+computing eigenvectors took 0.139046 sec
+For conductor 1, eigenvectors are:
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 over Number field with defining polynomial x-15
+a vector of length 34 over Number field with defining polynomial a number field of degree 23
+a vector of length 34 over Number field with defining polynomial a number field of degree 10
+For conductor 211, eigenvectors are:
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+15 40 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 11.786242 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 120 780 2800 
+computing eigenvalues for k = 2, took 0.228627 sec
+traces of hecke eigenvalues of T_{p^1} are:
+134 259 599 1256 2853 4057 6656 8543 12394 18947 22384 31477 38580 42939 50682 63036 79738 85709 105079 115708 127115 145360 160720 179256 217280 
+computing eigenvalues for k = 1, took 11.951618 sec
+traces of hecke eigenvalues of T_{p^2} are:
+57 116 6 848 
+computing eigenvalues for k = 2, took 0.234304 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-18 -16 -48 38 24 118 -154 610 -76 -4 492 -418 -2 -82 120 -526 1360 1168 2818 568 1274 1160 -990 -1824 728 
+computing eigenvalues for k = 1, took 13.325662 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-12 -8 16 -72 
+computing eigenvalues for k = 2, took 0.252127 sec
+For conductor 211:

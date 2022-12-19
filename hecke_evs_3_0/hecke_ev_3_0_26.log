@@ -1,0 +1,27 @@
+constructing eigenvector for poly
+x-40
+constructing eigenvector for poly
+x-5
+computing eigenvectors took 0.014588 sec
+For conductor 1, eigenvectors are:
+1 1 over Number field with defining polynomial x-40
+6 -1 over Number field with defining polynomial x-5
+For conductor 2, eigenvectors are:
+For conductor 13, eigenvectors are:
+For conductor 26, eigenvectors are:
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+40 156 400 1464 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 7.635958 sec
+traces of hecke eigenvalues of T_{p^2} are:
+120 780 2800 
+computing eigenvalues for k = 2, took 0.282478 sec
+traces of hecke eigenvalues of T_{p^1} are:
+5 23 43 106 383 254 456 788 1188 1275 2058 1691 2151 2430 3246 3726 5034 5121 5500 7624 6664 6820 9576 
+computing eigenvalues for k = 1, took 7.857490 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-20 -18 -56 
+computing eigenvalues for k = 2, took 0.286502 sec
+For conductor 2:
+For conductor 13:
+For conductor 26:
