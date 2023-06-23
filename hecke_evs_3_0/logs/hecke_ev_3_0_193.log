@@ -1,0 +1,32 @@
+constructing eigenvector for poly
+x^23-128*x^22+7707*x^21-290220*x^20+7665415*x^19-150957334*x^18+2300244915*x^17-27778814587*x^16+270147934100*x^15-2137963534932*x^14+13858780579597*x^13-73822861632602*x^12+323290529035163*x^11-1161367784405142*x^10+3405396357585681*x^9-8085455973810471*x^8+15364148114796433*x^7-22986859662177000*x^6+26470936255570924*x^5-22727934266288272*x^4+13894522708189664*x^3-5633729182334048*x^2+1338311507580032*x-139088850371072
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^10+15*x^9+77*x^8+129*x^7-161*x^6-764*x^5-678*x^4+146*x^3+480*x^2+224*x+32
+computing eigenvectors took 0.155112 sec
+For conductor 1, eigenvectors are:
+a vector of length 34 over Number field with defining polynomial a number field of degree 23
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 over Number field with defining polynomial x-15
+a vector of length 34 over Number field with defining polynomial a number field of degree 10
+For conductor 193, eigenvectors are:
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+128 250 630 1206 2856 4058 6694 8546 11770 19756 22046 31674 38486 42584 48938 64920 81060 86072 105248 115110 125118 145002 156604 181172 218710 
+computing eigenvalues for k = 1, took 14.417603 sec
+traces of hecke eigenvalues of T_{p^2} are:
+39 80 192 448 
+computing eigenvalues for k = 2, took 0.256082 sec
+traces of hecke eigenvalues of T_{p^1} are:
+15 40 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 14.633185 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 120 780 2800 
+computing eigenvalues for k = 2, took 0.251449 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-15 -26 -38 56 -78 200 120 122 -20 -112 30 864 42 -134 -162 826 -454 -402 1330 -1806 4304 1768 -1078 -2556 2512 
+computing eigenvalues for k = 1, took 13.079574 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-11 -2 26 -68 
+computing eigenvalues for k = 2, took 0.256571 sec
+For conductor 193:

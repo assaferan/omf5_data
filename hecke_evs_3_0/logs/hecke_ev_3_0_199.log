@@ -1,0 +1,32 @@
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^10+27*x^9+285*x^8+1515*x^7+4249*x^6+5516*x^5-142*x^4-9669*x^3-11818*x^2-5826*x-1013
+constructing eigenvector for poly
+x^20-109*x^19+5534*x^18-173822*x^17+3783797*x^16-60601598*x^15+739958976*x^14-7042883176*x^13+52983070631*x^12-317577623445*x^11+1521926996202*x^10-5828607230202*x^9+17762859613763*x^8-42719347863240*x^7+80019329206536*x^6-114495868354264*x^5+121636628265488*x^4-91930928794752*x^3+46153031085888*x^2-13582639062144*x+1734875435520
+computing eigenvectors took 0.093736 sec
+For conductor 1, eigenvectors are:
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 over Number field with defining polynomial x-15
+a vector of length 31 over Number field with defining polynomial a number field of degree 10
+a vector of length 31 over Number field with defining polynomial a number field of degree 20
+For conductor 199, eigenvectors are:
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+15 40 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 11.274845 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 120 780 2800 
+computing eigenvalues for k = 2, took 0.214982 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-27 -8 -43 41 33 170 -45 312 -160 -547 732 -1131 -434 751 218 -131 892 665 479 1970 -648 3307 1361 -1423 -2070 
+computing eigenvalues for k = 1, took 11.262497 sec
+traces of hecke eigenvalues of T_{p^2} are:
+1 -22 -120 -120 
+computing eigenvalues for k = 2, took 0.213010 sec
+traces of hecke eigenvalues of T_{p^1} are:
+109 232 559 1085 2482 3537 5770 7468 10719 16163 19383 27360 32400 37941 43947 56071 70148 75953 91960 101252 107592 125743 139120 157531 191480 
+computing eigenvalues for k = 1, took 11.293562 sec
+traces of hecke eigenvalues of T_{p^2} are:
+27 128 234 680 
+computing eigenvalues for k = 2, took 0.221057 sec
+For conductor 199:

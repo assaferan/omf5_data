@@ -1,0 +1,72 @@
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^2-13*x+38
+constructing eigenvector for poly
+x^2-8*x+11
+constructing eigenvector for poly
+x^7-42*x^6+715*x^5-6323*x^4+30916*x^3-81999*x^2+106156*x-48400
+constructing eigenvector for poly
+x^2+2*x-1
+constructing eigenvector for poly
+x^4+9*x^3+21*x^2+13*x+2
+constructing eigenvector for poly
+x^7-34*x^6+461*x^5-3175*x^4+11690*x^3-22079*x^2+18304*x-4432
+computing eigenvectors took 0.037658 sec
+For conductor 1, eigenvectors are:
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 over Number field with defining polynomial x-15
+4*a-20 -8 0 -4*a+20 3*a-17 -2*a+10 a-1 2*a-10 -2*a+10 2*a-6 0 0 -2 -a+5 over Number field with defining polynomial x^2-13*x+38
+12*a-120 72*a+24 -116*a+292 32*a-72 27*a-84 27*a-84 42*a-48 -52*a+86 -42*a+110 5*a+43 22*a-96 22*a-96 31 -10*a+7 over Number field with defining polynomial x^2-8*x+11
+4*a^6 - 148*a^5 + 2184*a^4 - 16220*a^3 + 62508*a^2 - 114344*a + 74464 -4*a^6 + 108*a^5 - 984*a^4 + 2708*a^3 + 7604*a^2 - 49880*a + 63744 -16*a^5 + 400*a^4 - 3472*a^3 + 11888*a^2 - 11488*a - 7296 8*a^6 - 264*a^5 + 3408*a^4 - 21728*a^3 + 71048*a^2 - 111256*a + 63264 4*a^6 - 144*a^5 + 2028*a^4 - 14072*a^3 + 49816*a^2 - 84112*a + 51984 -4*a^6 + 136*a^5 - 1848*a^4 + 12884*a^3 - 49164*a^2 + 99260*a - 83536 12*a^4 - 252*a^3 + 1572*a^2 - 2340*a - 1296 8*a^5 - 212*a^4 + 2060*a^3 - 9068*a^2 + 18332*a - 13936 -12*a^5 + 376*a^4 - 4484*a^3 + 25168*a^2 - 65896*a + 64944 -8*a^4 + 168*a^3 - 1048*a^2 + 1560*a + 864 -4*a^6 + 132*a^5 - 1712*a^4 + 11032*a^3 - 36540*a^2 + 56788*a - 29696 -4*a^5 + 144*a^4 - 1984*a^3 + 12864*a^2 - 38508*a + 42464 12*a^5 - 348*a^4 + 3788*a^3 - 19140*a^2 + 44664*a - 38576 -12*a^4 + 288*a^3 - 2380*a^2 + 7864*a - 9216 over Number field with defining polynomial x^7-42*x^6+715*x^5-6323*x^4+30916*x^3-81999*x^2+106156*x-48400
+-12 0 0 0 3 3*a+6 -3*a-3 2 0 2*a+2 -2*a-4 2*a+4 -1 -a-2 over Number field with defining polynomial x^2+2*x-1
+For conductor 3, eigenvectors are:
+For conductor 59, eigenvectors are:
+For conductor 177, eigenvectors are:
+24*a^3 + 168*a^2 + 288*a + 96 0 6*a^3 + 42*a^2 + 72*a + 24 -6*a^2 - 6*a - 12 -6*a^3 - 12*a^2 + 18*a + 12 4*a^3 + 28*a^2 + 48*a + 16 -24*a-16 4*a^2 + 4*a + 8 -20*a^2 - 60*a - 24 -2*a^3 - 6*a^2 - 8*a - 8 2*a^2 + 14*a + 12 over Number field with defining polynomial x^4+9*x^3+21*x^2+13*x+2
+2*a^4 - 30*a^3 + 134*a^2 - 98*a - 360 -10*a^5 + 246*a^4 - 2214*a^3 + 8858*a^2 - 15024*a + 7408 -3*a^4 + 43*a^3 - 153*a^2 - 155*a + 1100 -a^6 + 29*a^5 - 330*a^4 + 1862*a^3 - 5377*a^2 + 7189*a - 3020 -a^5 + 28*a^4 - 300*a^3 + 1532*a^2 - 3711*a + 3380 -a^5 + 26*a^4 - 256*a^3 + 1162*a^2 - 2327*a + 1460 -a^5 + 24*a^4 - 218*a^3 + 924*a^2 - 1773*a + 1140 -a^6 + 30*a^5 - 354*a^4 + 2080*a^3 - 6301*a^2 + 8962*a - 4160 -a^5 + 25*a^4 - 243*a^3 + 1143*a^2 - 2580*a + 2200 -3*a^4 + 57*a^3 - 389*a^2 + 1131*a - 1180 -a^5 + 21*a^4 - 161*a^3 + 535*a^2 - 642*a - 40 over Number field with defining polynomial x^7-34*x^6+461*x^5-3175*x^4+11690*x^3-22079*x^2+18304*x-4432
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+15 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 7.580842 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 780 2800 
+computing eigenvalues for k = 2, took 0.162544 sec
+traces of hecke eigenvalues of T_{p^1} are:
+13 29 104 277 269 781 653 1008 1433 2040 2521 3896 3749 4538 5083 6960 7786 10513 10852 12416 15907 16708 19368 
+computing eigenvalues for k = 1, took 7.680943 sec
+traces of hecke eigenvalues of T_{p^2} are:
+9 -138 32 
+computing eigenvalues for k = 2, took 0.167788 sec
+traces of hecke eigenvalues of T_{p^1} are:
+8 66 90 216 332 528 758 1268 1854 1860 2520 3026 3492 4560 6050 7296 10032 10880 11036 12526 13952 15168 18532 
+computing eigenvalues for k = 1, took 7.694463 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-6 84 -80 
+computing eigenvalues for k = 2, took 0.160078 sec
+traces of hecke eigenvalues of T_{p^1} are:
+42 208 333 919 1207 2119 2484 3646 6258 6340 9337 11789 12751 15548 20720 25636 30388 34517 37148 41499 46779 56686 65244 
+computing eigenvalues for k = 1, took 7.672771 sec
+traces of hecke eigenvalues of T_{p^2} are:
+21 156 -136 
+computing eigenvalues for k = 2, took 0.163101 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-2 10 -14 36 -24 120 -82 16 102 -124 340 -366 164 116 1274 244 -876 -432 -28 1166 -1964 -668 -468 
+computing eigenvalues for k = 1, took 7.694121 sec
+traces of hecke eigenvalues of T_{p^2} are:
+0 -4 -64 
+computing eigenvalues for k = 2, took 0.162001 sec
+For conductor 3:
+For conductor 59:
+For conductor 177:
+traces of hecke eigenvalues of T_{p^1} are:
+-9 -16 30 -32 34 64 86 -104 216 -258 568 100 -314 -6 -288 -354 428 -600 2046 -2130 182 -1750 1862 
+computing eigenvalues for k = 1, took 133.438341 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-1 4 32 
+computing eigenvalues for k = 2, took 0.518593 sec
+traces of hecke eigenvalues of T_{p^1} are:
+34 182 333 793 1151 1907 2580 3590 5684 6598 9685 11229 12429 14596 19134 26894 33208 35611 37396 46875 49261 56662 64636 
+computing eigenvalues for k = 1, took 134.943885 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-3 0 -136 
+computing eigenvalues for k = 2, took 0.508460 sec
