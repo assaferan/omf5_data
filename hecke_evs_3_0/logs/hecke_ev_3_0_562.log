@@ -1,0 +1,130 @@
+constructing eigenvector for poly
+x^30-340*x^29+55377*x^28-5752678*x^27+428145067*x^26-24311491306*x^25+1095215581343*x^24-40185575825352*x^23+1223471386005526*x^22-31329402847662246*x^21+681552228955118865*x^20-12690065158104371178*x^19+203331968439759867022*x^18-2814365530199831521032*x^17+33732509005299725279661*x^16-350543607542954164717542*x^15+3158646823007308860265881*x^14-24653896424075892219346098*x^13+166326737290970602242141539*x^12-966641175784901209237074332*x^11+4816471958084690638199582571*x^10-20444500645756901722316465426*x^9+73308175764185206014280874897*x^8-219616812582859895347579620338*x^7+541732334462660685203941033156*x^6-1078886923922408323293735389394*x^5+1687895882313927237303011656718*x^4-1992662486474287792069180961646*x^3+1665006314377094601190680972129*x^2-875568375746446100141538937188*x+217384071740542003986199442084
+constructing eigenvector for poly
+x-40
+constructing eigenvector for poly
+x^19-215*x^18+21562*x^17-1339882*x^16+57799050*x^15-1837663085*x^14+44623456683*x^13-846196833521*x^12+12705415379773*x^11-152236691930893*x^10+1460179066979072*x^9-11198287506631645*x^8+68296859296842592*x^7-327858373239661028*x^6+1218578049864851784*x^5-3419326949194523315*x^4+6965705496953542179*x^3-9661930442417130754*x^2+8101153394957086485*x-3069004372281538600
+constructing eigenvector for poly
+x^18+50*x^17+864*x^16+3686*x^15-67087*x^14-927160*x^13-2959080*x^12+18687868*x^11+167051779*x^10+274866578*x^9-1421918648*x^8-6335064674*x^7-4365395733*x^6+18763038004*x^5+33402657536*x^4-3203258624*x^3-38737633568*x^2-23415751616*x-4027725184
+constructing eigenvector for poly
+x^41-10*x^40-643*x^39+6452*x^38+182303*x^37-1840677*x^36-30127752*x^35+307379568*x^34+3234744887*x^33-33551113209*x^32-238262770586*x^31+2533577922347*x^30+12404735174497*x^29-136749108876464*x^28-464014416504453*x^27+5378504691215893*x^26+12573348504923239*x^25-155831791469559480*x^24-247853995785880327*x^23+3342189138595130119*x^22+3578315120670661390*x^21-53083046884990736564*x^20-38674069969565254795*x^19+622319720112661577210*x^18+330836000356848741073*x^17-5348176923682211283841*x^16-2432154742540918131367*x^15+33281903126025816558245*x^14+15797370445229895562403*x^13-146669912872819415455551*x^12-83320070670748869684454*x^11+439280093338654475004901*x^10+313705850506921807072150*x^9-827022788193369170077005*x^8-746156722162063799762642*x^7+827684896526094777033007*x^6+965478580552188876563837*x^5-245323734466091414657736*x^4-501563246002152363707449*x^3-107571036151694114404401*x^2+8616409215305663666197*x+2702193974203739325815
+constructing eigenvector for poly
+x+13
+constructing eigenvector for poly
+x^18+50*x^17+864*x^16+3686*x^15-67087*x^14-927160*x^13-2959080*x^12+18687868*x^11+167051779*x^10+274866578*x^9-1421918648*x^8-6335064674*x^7-4365395733*x^6+18763038004*x^5+33402657536*x^4-3203258624*x^3-38737633568*x^2-23415751616*x-4027725184
+constructing eigenvector for poly
+x+3
+constructing eigenvector for poly
+x+6
+constructing eigenvector for poly
+x^2+18*x+81
+constructing eigenvector for poly
+x^2+14*x+49
+constructing eigenvector for poly
+x^2+17*x+69
+constructing eigenvector for poly
+x+6
+constructing eigenvector for poly
+x^14-149*x^13+10117*x^12-414453*x^11+11429776*x^10-224153625*x^9+3218542870*x^8-34308988561*x^7+272246314075*x^6-1596170113845*x^5+6784737682601*x^4-20191819370139*x^3+39549630969904*x^2-45257728272732*x+22517521951057
+constructing eigenvector for poly
+x^32+14*x^31-221*x^30-3343*x^29+21008*x^28+343396*x^27-1134471*x^26-19979099*x^25+38851231*x^24+731329508*x^23-896605828*x^22-17731813859*x^21+14559640258*x^20+292511128512*x^19-173110404776*x^18-3324362451999*x^17+1571902587290*x^16+26081868726138*x^15-11272997450832*x^14-140127594971141*x^13+63518513528091*x^12+504651735073866*x^11-265082706456418*x^10-1165804336909114*x^9+745862420017409*x^8+1577530531333580*x^7-1250889085917908*x^6-1005653169111971*x^5+1014548539932856*x^4+119037818727159*x^3-221296539247855*x^2-3018268327483*x+13594710624249
+computing eigenvectors took 13.325545 sec
+For conductor 1, eigenvectors are:
+a vector of length 109 over Number field with defining polynomial a number field of degree 30
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 over Number field with defining polynomial x-40
+a vector of length 109 over Number field with defining polynomial a number field of degree 19
+a vector of length 109 over Number field with defining polynomial a number field of degree 18
+a vector of length 109 over Number field with defining polynomial a number field of degree 41
+For conductor 2, eigenvectors are:
+-2 0 2 0 2 2 2 0 2 0 0 2 2 0 -2 1 1 1 0 over Number field with defining polynomial x+13
+a vector of length 19 over Number field with defining polynomial a number field of degree 18
+For conductor 281, eigenvectors are:
+1 1 1 0 over Number field with defining polynomial x+3
+1 0 -1 1 over Number field with defining polynomial x+6
+a+7 -a-6 -1 -a-8 over Number field with defining polynomial x^2+17*x+69
+For conductor 562, eigenvectors are:
+0 0 0 0 0 6 0 6 0 0 0 0 4 0 0 0 0 -4 0 0 0 -2 0 0 2 0 2 -2 0 0 0 0 2 2 0 0 0 0 -2 0 2 0 0 1 0 1 -1 over Number field with defining polynomial x+6
+a vector of length 47 over Number field with defining polynomial a number field of degree 14
+a vector of length 47 over Number field with defining polynomial a number field of degree 32
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+340 870 1560 3842 5226 9058 10764 16054 25718 27816 41708 50960 55706 66078 85108 104020 110794 134674 150188 162056 187808 208866 240576 282366 
+computing eigenvalues for k = 1, took 24.309294 sec
+traces of hecke eigenvalues of T_{p^2} are:
+160 540 480 
+computing eigenvalues for k = 2, took 0.325998 sec
+traces of hecke eigenvalues of T_{p^1} are:
+40 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 24.111621 sec
+traces of hecke eigenvalues of T_{p^2} are:
+120 780 2800 
+computing eigenvalues for k = 2, took 0.321999 sec
+traces of hecke eigenvalues of T_{p^1} are:
+215 563 1031 2471 3413 5509 7251 10278 16332 18776 26611 32138 35709 41635 52980 66704 72636 85987 96221 101222 116989 127973 146940 178373 
+computing eigenvalues for k = 1, took 24.245888 sec
+traces of hecke eigenvalues of T_{p^2} are:
+100 414 648 
+computing eigenvalues for k = 2, took 0.324539 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-50 8 -116 142 -96 694 -98 164 1310 -412 -406 1706 -1788 68 900 1708 234 -454 1356 752 -102 422 3670 792 
+computing eigenvalues for k = 1, took 11.504192 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-20 -42 -160 
+computing eigenvalues for k = 2, took 0.322545 sec
+traces of hecke eigenvalues of T_{p^1} are:
+10 -1 144 -265 387 59 19 -285 -63 758 3480 10 2499 -755 981 -6691 128 5030 -6464 3898 -1523 -6004 960 5917 
+computing eigenvalues for k = 1, took 12.900820 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-28 -250 -156 
+computing eigenvalues for k = 2, took 0.395467 sec
+For conductor 2:
+traces of hecke eigenvalues of T_{p^1} are:
+-13 -8 -21 -1 5 -41 -44 -151 4 5 -217 469 -263 -40 -2 365 -95 -448 -193 487 -720 -449 1062 610 
+computing eigenvalues for k = 1, took 383.473535 sec
+traces of hecke eigenvalues of T_{p^2} are:
+20 -22 34 
+computing eigenvalues for k = 2, took 0.660552 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-50 8 -116 142 -96 694 -98 164 1310 -412 -406 1706 -1788 68 900 1708 234 -454 1356 752 -102 422 3670 792 
+computing eigenvalues for k = 1, took 388.557107 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-20 -42 -160 
+computing eigenvalues for k = 2, took 0.644770 sec
+For conductor 281:
+traces of hecke eigenvalues of T_{p^1} are:
+-3 -10 -29 7 -49 41 24 65 110 105 -185 -319 -539 -106 -22 147 131 248 -133 -711 1034 331 372 154 
+computing eigenvalues for k = 1, took 671.634939 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-2 0 56 
+computing eigenvalues for k = 2, took 0.613244 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-6 -16 6 -26 14 -40 -32 -11 32 -178 284 137 16 487 -586 -26 -128 560 -557 -767 -195 -118 -1881 247 
+computing eigenvalues for k = 1, took 667.557975 sec
+traces of hecke eigenvalues of T_{p^2} are:
+2 29 -20 
+computing eigenvalues for k = 2, took 0.613753 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-18 -14 -17 59 -56 -83 -68 -24 -71 -13 -558 16 155 261 -83 349 54 -341 1338 -623 -238 891 903 -604 
+computing eigenvalues for k = 1, took 665.430849 sec
+traces of hecke eigenvalues of T_{p^2} are:
+18 11 -36 
+computing eigenvalues for k = 2, took 0.610866 sec
+For conductor 562:
+traces of hecke eigenvalues of T_{p^1} are:
+-6 -16 6 -26 14 -40 -32 -11 32 -178 284 137 16 487 -586 -26 -128 560 -557 -767 -195 -118 -1881 247 
+computing eigenvalues for k = 1, took 196.962313 sec
+traces of hecke eigenvalues of T_{p^2} are:
+2 29 -20 
+computing eigenvalues for k = 2, took 0.690402 sec
+traces of hecke eigenvalues of T_{p^1} are:
+149 377 761 1747 2357 3879 5031 7490 11704 13568 19071 23004 25751 30169 38274 47728 50806 62683 70631 73436 88181 96223 113094 131369 
+computing eigenvalues for k = 1, took 147.051910 sec
+traces of hecke eigenvalues of T_{p^2} are:
+36 78 488 
+computing eigenvalues for k = 2, took 0.642731 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-14 -131 51 -179 -98 -480 569 140 -206 958 2072 -2060 3703 497 -141 349 1087 4780 700 2574 5321 -462 -8338 1037 
+computing eigenvalues for k = 1, took 148.059505 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-58 -101 -118 
+computing eigenvalues for k = 2, took 0.642171 sec

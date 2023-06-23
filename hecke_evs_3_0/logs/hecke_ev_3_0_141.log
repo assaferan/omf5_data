@@ -1,0 +1,74 @@
+constructing eigenvector for poly
+x+1
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^3-13*x^2+46*x-36
+constructing eigenvector for poly
+x^5-31*x^4+359*x^3-1903*x^2+4512*x-3802
+constructing eigenvector for poly
+x+5
+constructing eigenvector for poly
+x^5-25*x^4+229*x^3-925*x^2+1502*x-486
+constructing eigenvector for poly
+x^2+4*x+4
+constructing eigenvector for poly
+x^2+10*x+12
+computing eigenvectors took 0.247134 sec
+For conductor 1, eigenvectors are:
+0 4 0 -4 3 0 -3 0 2 -1 over Number field with defining polynomial x+1
+1 1 1 1 1 1 1 1 1 1 over Number field with defining polynomial x-15
+2*a^2 - 28*a + 72 2*a^2 - 12*a + 16 2*a^2 - 12*a + 16 2*a^2 - 12*a + 16 2*a^2 - 16*a + 30 -a^2 - 4*a + 42 3*a-12 -2*a^2 + 18*a - 40 -2*a^2 + 18*a - 40 -a+2 over Number field with defining polynomial x^3-13*x^2+46*x-36
+-12*a^3 + 204*a^2 - 1032*a + 1608 -3*a^4 + 66*a^3 - 475*a^2 + 1218*a - 878 5*a^4 - 110*a^3 + 821*a^2 - 2406*a + 2370 -4*a^3 + 60*a^2 - 240*a + 296 -12*a^2 + 156*a - 384 0 -3*a^4 + 66*a^3 - 495*a^2 + 1470*a - 1494 a^4 - 26*a^3 + 241*a^2 - 930*a + 1250 -12*a^2 + 148*a - 344 4*a^3 - 64*a^2 + 292*a - 408 over Number field with defining polynomial x^5-31*x^4+359*x^3-1903*x^2+4512*x-3802
+For conductor 3, eigenvectors are:
+For conductor 47, eigenvectors are:
+For conductor 141, eigenvectors are:
+0 4 -3 6 3 -4 -2 -1 over Number field with defining polynomial x+5
+10*a^2 - 98*a + 228 a^4 - 20*a^3 + 133*a^2 - 316*a + 154 a^4 - 19*a^3 + 119*a^2 - 263*a + 102 2*a^2 - 22*a + 60 a^3 - 16*a^2 + 85*a - 150 -a^3 + 14*a^2 - 53*a + 52 a^3 - 14*a^2 + 63*a - 90 a^3 - 12*a^2 + 31*a + 8 over Number field with defining polynomial x^5-25*x^4+229*x^3-925*x^2+1502*x-486
+0 4*a+24 -3*a-18 -3*a-18 -3*a -2*a 2*a 6 over Number field with defining polynomial x^2+10*x+12
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+-1 13 -3 21 -21 64 -55 -68 132 34 175 99 -176 -736 182 97 -764 746 -338 343 888 166 -1145 
+computing eigenvalues for k = 1, took 9.304853 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-1 7 -101 
+computing eigenvalues for k = 2, took 0.124732 sec
+traces of hecke eigenvalues of T_{p^1} are:
+15 156 400 1464 2380 5220 7240 12720 25260 30784 52060 70644 81400 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 5.538718 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 780 2800 
+computing eigenvalues for k = 2, took 0.126790 sec
+traces of hecke eigenvalues of T_{p^1} are:
+13 84 123 398 466 879 1116 1776 2426 2972 3629 5074 5426 9045 11199 11613 13128 16085 14282 19765 21628 24865 26275 
+computing eigenvalues for k = 1, took 5.502517 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-6 36 -216 
+computing eigenvalues for k = 2, took 0.124319 sec
+traces of hecke eigenvalues of T_{p^1} are:
+31 146 254 614 848 1488 1600 2694 4578 4500 6738 8772 9656 14376 16616 17876 21328 24272 26844 29586 35696 40352 45410 
+computing eigenvalues for k = 1, took 5.421908 sec
+traces of hecke eigenvalues of T_{p^2} are:
+18 96 32 
+computing eigenvalues for k = 2, took 0.127551 sec
+For conductor 3:
+For conductor 47:
+For conductor 141:
+traces of hecke eigenvalues of T_{p^1} are:
+-5 -9 -7 37 43 6 -19 -36 124 30 -291 45 46 -186 -516 -27 340 82 348 965 -304 22 -825 
+computing eigenvalues for k = 1, took 135.932746 sec
+traces of hecke eigenvalues of T_{p^2} are:
+3 21 -93 
+computing eigenvalues for k = 2, took 0.515866 sec
+traces of hecke eigenvalues of T_{p^1} are:
+25 116 254 510 860 1480 1666 2478 3996 4698 7254 7486 9094 14360 17636 18744 23826 26076 26796 35094 32780 38984 48270 
+computing eigenvalues for k = 1, took 107.397081 sec
+traces of hecke eigenvalues of T_{p^2} are:
+0 -84 32 
+computing eigenvalues for k = 2, took 0.488249 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-4 -10 29 4 -20 -37 -38 -88 196 -380 685 66 -364 1129 -323 337 506 -1321 -638 -201 -940 1761 715 
+computing eigenvalues for k = 1, took 139.310907 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-4 -56 64 
+computing eigenvalues for k = 2, took 0.497735 sec

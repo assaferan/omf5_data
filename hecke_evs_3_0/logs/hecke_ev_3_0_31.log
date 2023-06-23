@@ -1,0 +1,23 @@
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^2-7*x+8
+computing eigenvectors took 0.006818 sec
+For conductor 1, eigenvectors are:
+-1 -1 -1 over Number field with defining polynomial x-15
+2*a-10 4 -a+3 over Number field with defining polynomial x^2-7*x+8
+For conductor 31, eigenvectors are:
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+15 40 156 400 1464 2380 5220 7240 12720 25260 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 11.229884 sec
+traces of hecke eigenvalues of T_{p^2} are:
+30 120 780 2800 
+computing eigenvalues for k = 2, took 0.215041 sec
+traces of hecke eigenvalues of T_{p^1} are:
+7 22 35 93 238 428 528 709 1114 1426 2844 2861 4004 5024 5670 6471 7936 9536 9907 8964 11508 15402 16438 20375 
+computing eigenvalues for k = 1, took 11.423332 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-9 8 -102 -56 
+computing eigenvalues for k = 2, took 0.216411 sec
+For conductor 31:

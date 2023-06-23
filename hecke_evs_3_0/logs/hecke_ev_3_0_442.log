@@ -1,0 +1,260 @@
+constructing eigenvector for poly
+x-5
+constructing eigenvector for poly
+x-1
+constructing eigenvector for poly
+x-40
+constructing eigenvector for poly
+x-16
+constructing eigenvector for poly
+x+1
+constructing eigenvector for poly
+x-11
+constructing eigenvector for poly
+x^2-30*x+212
+constructing eigenvector for poly
+x^4-33*x^3+347*x^2-1366*x+1646
+constructing eigenvector for poly
+x^14-188*x^13+16185*x^12-845102*x^11+29876243*x^10-755798146*x^9+14095839268*x^8-196677354956*x^7+2060607019408*x^6-16111156460824*x^5+92401476760000*x^4-376351911353264*x^3+1027278593263120*x^2-1678833354113792*x+1236786240040448
+constructing eigenvector for poly
+x^9+15*x^8+15*x^7-572*x^6-1184*x^5+8154*x^4+9610*x^3-48512*x^2+33474*x+886
+constructing eigenvector for poly
+x-4
+constructing eigenvector for poly
+x-4
+constructing eigenvector for poly
+x-4
+constructing eigenvector for poly
+x-8
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x-3
+constructing eigenvector for poly
+x^5-65*x^4+1569*x^3-16952*x^2+76036*x-92352
+constructing eigenvector for poly
+x^10+8*x^9-126*x^8-933*x^7+4802*x^6+31708*x^5-59088*x^4-358100*x^3-14900*x^2+959254*x+692878
+constructing eigenvector for poly
+x-10
+constructing eigenvector for poly
+x^2-7*x-17
+constructing eigenvector for poly
+x^6-65*x^5+1671*x^4-21576*x^3+146632*x^2-496788*x+658724
+constructing eigenvector for poly
+x^8+12*x^7-16*x^6-354*x^5-14*x^4+2554*x^3+664*x^2-210*x+4
+constructing eigenvector for poly
+x-16
+constructing eigenvector for poly
+x^5-51*x^4+989*x^3-9002*x^2+37788*x-57388
+constructing eigenvector for poly
+x^13-160*x^12+11553*x^11-497698*x^10+14247399*x^9-285645210*x^8+4117257192*x^7-43085923140*x^6+326305170168*x^5-1759282008512*x^4+6529468762496*x^3-15689710465632*x^2+21684421716608*x-12885675104640
+constructing eigenvector for poly
+x^9+5*x^8-43*x^7-258*x^6+228*x^5+3196*x^4+5214*x^3+1152*x^2-2284*x-1046
+constructing eigenvector for poly
+x+9
+computing eigenvectors took 4.214375 sec
+For conductor 1, eigenvectors are:
+80 -144 80 52 -32 38 -32 -32 52 24 -4 10 -18 45 -18 10 -4 -46 52 24 -25 3 -4 -4 10 -4 17 -18 -11 38 10 -11 -4 -4 3 -11 -11 over Number field with defining polynomial x-5
+0 0 0 12 0 -6 0 0 4 8 0 6 -6 3 -6 -2 -4 6 -4 0 -3 -3 0 0 6 -4 1 2 -1 -2 -2 3 -4 0 1 3 -1 over Number field with defining polynomial x-1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 over Number field with defining polynomial x-40
+40 16 40 4 28 -14 28 28 4 -32 -68 16 -20 28 -20 16 -2 10 4 1 4 7 31 -2 -17 -2 -8 -20 22 -14 16 22 -2 -2 7 -11 -11 over Number field with defining polynomial x-16
+0 0 24 -24 12 18 -12 12 -24 16 0 6 -18 -15 -12 4 0 2 8 -9 3 9 -3 9 0 -12 2 0 3 2 2 -8 4 -3 5 4 -3 over Number field with defining polynomial x+1
+80 32 -40 8 -4 2 -44 -4 8 16 -16 -18 -10 1 20 12 16 10 8 7 3 9 -3 1 -4 -4 -6 0 -1 2 2 4 -4 1 -11 8 -7 over Number field with defining polynomial x-11
+-90*a+1260 -36*a+504 144 -18*a+216 18*a-144 27*a-342 144 -18*a+216 12*a-156 -12*a+192 45*a-576 36 36 -9*a+72 36 18*a-252 12*a-138 15*a-186 -6*a+96 9*a-81 -18*a+216 9*a-135 18*a-171 -18 9*a-135 -9*a+126 -12*a+120 -15*a+204 -3*a-6 -9*a+126 9*a-108 6*a-114 -18 6*a-78 -6*a+69 27 -6*a+51 over Number field with defining polynomial x^2-30*x+212
+6270*a^3 - 137230*a^2 + 831550*a - 1332340 2508*a^3 - 54892*a^2 + 332620*a - 532936 28*a^3 + 7908*a^2 - 94412*a + 182096 594*a^3 - 8590*a^2 + 32926*a - 19060 -422*a^3 + 10434*a^2 - 56282*a + 75320 832*a^3 - 16572*a^2 + 80280*a - 113360 146*a^3 + 3418*a^2 - 61922*a + 124088 82*a^3 + 6990*a^2 - 88394*a + 189752 504*a^3 - 13120*a^2 + 84000*a - 126104 -1520*a^3 + 35272*a^2 - 215440*a + 286448 1334*a^3 - 23760*a^2 + 111746*a - 158900 4*a^3 - 2002*a^2 + 16036*a - 30528 246*a^3 - 3024*a^2 + 1738*a + 5560 -64*a^3 + 6700*a^2 - 68704*a + 131628 -1694*a^3 + 39208*a^2 - 239136*a + 328992 184*a^3 - 4240*a^2 + 10068*a + 488 132*a^3 - 4612*a^2 + 21888*a - 5108 704*a^3 - 16572*a^2 + 101596*a - 162768 638*a^3 - 15434*a^2 + 99898*a - 171292 -458*a^3 + 10000*a^2 - 54242*a + 79210 180*a^3 + 1808*a^2 - 40284*a + 107476 -650*a^3 + 15508*a^2 - 100870*a + 149102 -182*a^3 + 3674*a^2 - 6578*a - 11754 84*a^3 - 970*a^2 + 6518*a - 2832 128*a^3 - 2082*a^2 + 14864*a - 25550 52*a^3 - 4696*a^2 + 37034*a - 60620 -124*a^3 + 3188*a^2 - 14696*a + 6352 -206*a^3 + 4882*a^2 - 30164*a + 29068 -104*a^3 + 4476*a^2 - 30696*a + 36784 8*a^3 + 1034*a^2 - 14494*a + 43472 110*a^3 - 2470*a^2 + 24918*a - 53088 -220*a^3 + 5292*a^2 - 43828*a + 72196 112*a^3 - 4082*a^2 + 34460*a - 55360 -396*a^2 + 11870*a - 21904 -3626*a^2 + 30932*a - 53306 -86*a^3 + 788*a^2 - 4146*a + 26174 -694*a^2 + 12060*a - 24986 over Number field with defining polynomial x^4-33*x^3+347*x^2-1366*x+1646
+a vector of length 37 over Number field with defining polynomial a number field of degree 14
+0 0 -1440*a^8 - 21600*a^7 - 50400*a^6 + 483840*a^5 + 1645920*a^4 - 3620880*a^3 - 8755200*a^2 + 16269120*a - 4125600 -360*a^7 - 5400*a^6 - 3960*a^5 + 174960*a^4 + 165600*a^3 - 1172880*a^2 + 2880000*a - 2646000 360*a^8 + 3600*a^7 - 6120*a^6 - 79200*a^5 + 204480*a^4 + 75600*a^3 - 3159360*a^2 + 7629840*a - 5317920 360*a^8 + 4680*a^7 + 10080*a^6 - 39240*a^5 - 110520*a^4 - 1041480*a^3 - 1990080*a^2 + 11069280*a - 8085600 720*a^8 + 10800*a^7 + 25200*a^6 - 241920*a^5 - 822960*a^4 + 1810440*a^3 + 4377600*a^2 - 8134560*a + 2062800 -360*a^7 - 4320*a^6 - 9720*a^5 + 82080*a^4 + 741240*a^3 + 776160*a^2 - 6220080*a + 5142960 -2400*a^7 - 26640*a^6 + 17280*a^5 + 698640*a^4 - 122880*a^3 - 5286240*a^2 + 7174560*a - 1992000 480*a^8 + 8880*a^7 + 34800*a^6 - 184080*a^5 - 1078800*a^4 + 1322160*a^3 + 6372480*a^2 - 12339840*a + 5866560 0 -180*a^8 - 1440*a^7 + 13680*a^6 + 120780*a^5 - 153540*a^4 - 2065860*a^3 + 200520*a^2 + 8495280*a - 6763320 -180*a^7 - 8460*a^6 - 76320*a^5 + 10260*a^4 + 1657440*a^3 + 991080*a^2 - 9200160*a + 6850800 1260*a^7 + 15300*a^6 - 3240*a^5 - 471420*a^4 - 410400*a^3 + 3746520*a^2 - 710280*a - 3416760 -360*a^8 - 6660*a^7 - 26100*a^6 + 138060*a^5 + 809100*a^4 - 991620*a^3 - 4779360*a^2 + 9254880*a - 4399920 -960*a^7 - 13920*a^6 - 32760*a^5 + 247200*a^4 + 806040*a^3 - 770640*a^2 - 1668960*a + 1044720 -120*a^8 - 240*a^7 + 16080*a^6 + 56880*a^5 - 346680*a^4 - 773160*a^3 + 2546640*a^2 - 1776960*a + 447600 840*a^7 + 7800*a^6 - 19680*a^5 - 213000*a^4 + 375720*a^3 + 1530480*a^2 - 3831120*a + 2198880 120*a^7 + 1800*a^6 + 1320*a^5 - 58320*a^4 - 55200*a^3 + 390960*a^2 - 960000*a + 882000 270*a^8 + 3870*a^7 + 4680*a^6 - 115560*a^5 - 214560*a^4 + 1285560*a^3 + 882000*a^2 - 6350040*a + 4981140 180*a^7 + 2430*a^6 + 3420*a^5 - 64260*a^4 - 226710*a^3 + 99180*a^2 + 835020*a - 624240 630*a^7 + 7110*a^6 - 6660*a^5 - 217170*a^4 - 24210*a^3 + 1651500*a^2 - 1109700*a - 750780 -90*a^8 - 900*a^7 + 1530*a^6 + 19800*a^5 - 51120*a^4 - 18900*a^3 + 789840*a^2 - 1907460*a + 1329480 180*a^8 + 1350*a^7 - 10980*a^6 - 75510*a^5 + 199800*a^4 + 980190*a^3 - 1751580*a^2 - 1973700*a + 3252960 -180*a^8 - 2250*a^7 - 810*a^6 + 57780*a^5 + 50130*a^4 - 307980*a^3 + 499500*a^2 - 934560*a + 617400 60*a^8 + 1440*a^7 + 9240*a^6 - 10200*a^5 - 222240*a^4 - 170460*a^3 + 1185360*a^2 - 428760*a - 408600 120*a^8 + 1920*a^7 + 3840*a^6 - 59880*a^5 - 172560*a^4 + 706440*a^3 + 1304400*a^2 - 3532560*a + 1504320 -180*a^8 - 3000*a^7 - 7860*a^6 + 81480*a^5 + 287820*a^4 - 840900*a^3 - 1689000*a^2 + 4973160*a - 2820240 -360*a^7 - 4380*a^6 + 2700*a^5 + 143460*a^4 + 13260*a^3 - 1378200*a^2 + 1273440*a + 281760 60*a^7 + 1320*a^6 + 12180*a^5 + 43920*a^4 - 78120*a^3 - 600360*a^2 + 433560*a + 453000 -300*a^7 - 3480*a^6 - 3540*a^5 + 57060*a^4 + 133320*a^3 + 74760*a^2 + 45840*a - 722520 60*a^7 + 2220*a^6 + 20820*a^5 + 21180*a^4 - 386880*a^3 - 715680*a^2 + 1574280*a - 21840 840*a^7 + 9540*a^6 - 1320*a^5 - 230460*a^4 - 90900*a^3 + 1650240*a^2 - 821400*a - 984000 -60*a^8 - 570*a^7 + 2940*a^6 + 32790*a^5 - 33480*a^4 - 491280*a^3 + 179940*a^2 + 1407600*a - 1053000 -480*a^7 - 6900*a^6 - 15030*a^5 + 136710*a^4 + 429540*a^3 - 626100*a^2 - 1201500*a + 1331520 -360*a^7 - 4740*a^6 - 6330*a^5 + 92970*a^4 + 117030*a^3 - 507480*a^2 + 826860*a - 707700 -90*a^7 - 390*a^6 + 6900*a^5 + 17340*a^4 - 192420*a^3 - 310020*a^2 + 1140120*a - 577620 over Number field with defining polynomial x^9+15*x^8+15*x^7-572*x^6-1184*x^5+8154*x^4+9610*x^3-48512*x^2+33474*x+886
+70 -98 -14 -14 70 -56 -14 -14 -42 -14 7 28 28 28 28 -14 14 28 14 -35 -14 -14 -14 49 -14 7 14 -14 -14 7 7 14 -14 0 -7 0 0 over Number field with defining polynomial x-4
+0 0 168 252 84 126 -84 84 -28 112 0 -168 84 0 -84 -112 70 14 -84 -63 -84 63 -21 -42 -105 -14 -56 0 -14 14 84 14 -42 14 35 -7 49 over Number field with defining polynomial x-4
+For conductor 2, eigenvectors are:
+For conductor 13, eigenvectors are:
+For conductor 26, eigenvectors are:
+15 -3 3 -3 0 3 3 -3 0 0 0 0 0 0 1 1 0 -2 1 over Number field with defining polynomial x-4
+-25 -7 -1 13 -12 7 5 1 -2 6 -8 -10 8 4 1 9 -2 4 -1 over Number field with defining polynomial x-8
+-16 0 -4 -4 1 0 -1 -3 -1 3 3 2 -3 2 4 1 -1 2 3 over Number field with defining polynomial x-15
+0 0 12 12 9 0 -9 -3 -9 3 3 6 1 -2 -4 5 -1 -2 -1 over Number field with defining polynomial x-3
+-30*a^4 + 1620*a^3 - 30840*a^2 + 232350*a - 488460 -54*a^3 + 2130*a^2 - 26202*a + 95724 16*a^4 - 774*a^3 + 12642*a^2 - 77006*a + 118452 2*a^4 - 132*a^3 + 2964*a^2 - 27502*a + 91260 -4*a^4 + 180*a^3 - 2628*a^2 + 14384*a - 32304 2*a^4 - 126*a^3 + 2862*a^2 - 27238*a + 88212 -30*a^3 + 1230*a^2 - 15042*a + 48588 -2*a^4 + 48*a^3 + 336*a^2 - 13118*a + 58956 -2*a^4 + 96*a^3 - 1632*a^2 + 12196*a - 39624 -16*a^4 + 744*a^3 - 11412*a^2 + 61964*a - 69864 2*a^4 - 102*a^3 + 1794*a^2 - 13084*a + 36768 -6*a^3 + 162*a^2 - 888*a - 2856 12*a^3 - 636*a^2 + 10008*a - 46944 4*a^4 - 192*a^3 + 3264*a^2 - 24392*a + 79248 2*a^4 - 102*a^3 + 1752*a^2 - 11494*a + 22380 -42*a^2 + 1590*a - 14388 -2*a^4 + 96*a^3 - 1632*a^2 + 12196*a - 39624 30*a^3 - 1272*a^2 + 16632*a - 62976 -6*a^3 + 120*a^2 + 702*a - 17244 over Number field with defining polynomial x^5-65*x^4+1569*x^3-16952*x^2+76036*x-92352
+a vector of length 19 over Number field with defining polynomial a number field of degree 10
+For conductor 17, eigenvectors are:
+For conductor 34, eigenvectors are:
+12 0 0 0 0 -2 3 0 3 3 0 -3 -2 2 -1 1 -1 over Number field with defining polynomial x-10
+0 -16*a+8 4*a+16 8*a+32 2*a-10 0 2*a-1 -6*a-6 0 -a-4 18 4*a+7 2*a+8 2*a-1 -9 0 -a-13 over Number field with defining polynomial x^2-7*x-17
+-5*a^5 + 280*a^4 - 6040*a^3 + 62665*a^2 - 311870*a + 584930 -a^5 + 62*a^4 - 1452*a^3 + 15917*a^2 - 81058*a + 152466 5*a^4 - 237*a^3 + 3837*a^2 - 24520*a + 52770 -7*a^4 + 317*a^3 - 5031*a^2 + 32576*a - 71734 -a^5 + 59*a^4 - 1328*a^3 + 14131*a^2 - 70446*a + 130458 2*a^4 - 104*a^3 + 1914*a^2 - 14428*a + 35428 -2*a^4 + 100*a^3 - 1736*a^2 + 12096*a - 27988 -7*a^4 + 317*a^3 - 5031*a^2 + 32576*a - 71734 -a^5 + 57*a^4 - 1228*a^3 + 12395*a^2 - 58350*a + 102470 3*a^4 - 137*a^3 + 2101*a^2 - 12424*a + 24782 -a^5 + 55*a^4 - 1135*a^3 + 10886*a^2 - 48482*a + 80732 -2*a^4 + 93*a^3 - 1509*a^2 + 9868*a - 21738 -a^5 + 56*a^4 - 1183*a^3 + 11665*a^2 - 53364*a + 91006 -a^4 + 48*a^3 - 779*a^2 + 4882*a - 10274 -a^5 + 59*a^4 - 1324*a^3 + 13953*a^2 - 68114*a + 123018 -a^4 + 52*a^3 - 957*a^2 + 7214*a - 17714 -3*a^4 + 141*a^3 - 2288*a^2 + 14750*a - 32012 over Number field with defining polynomial x^6-65*x^5+1671*x^4-21576*x^3+146632*x^2-496788*x+658724
+0 -24*a^5 - 96*a^4 + 720*a^3 - 48*a^2 - 1104*a - 240 -24*a^6 - 192*a^5 + 816*a^4 + 3504*a^3 - 8928*a^2 - 4416*a + 240 -24*a^5 - 216*a^4 + 360*a^3 + 1968*a^2 + 192*a + 48 -12*a^6 - 24*a^5 + 312*a^4 + 780*a^3 - 3384*a^2 - 1272*a + 96 -4*a^7 - 32*a^6 + 152*a^5 + 568*a^4 - 2080*a^3 + 568*a^2 + 736*a - 40 -6*a^7 - 60*a^6 + 168*a^5 + 1620*a^4 - 1320*a^3 - 9276*a^2 - 3252*a + 252 30*a^4 + 90*a^3 - 504*a^2 - 324*a - 72 42*a^5 - 12*a^4 - 1122*a^3 + 2112*a^2 + 744*a - 108 6*a^6 + 48*a^5 - 204*a^4 - 876*a^3 + 2232*a^2 + 1104*a - 60 -6*a^5 + 66*a^4 + 258*a^3 - 1416*a^2 + 108*a + 312 6*a^6 + 66*a^5 - 162*a^4 - 1020*a^3 + 1884*a^2 + 480*a - 180 -4*a^5 - 16*a^4 - 76*a^3 + 512*a^2 + 96*a - 184 2*a^7 + 22*a^6 - 70*a^5 - 584*a^4 + 864*a^3 + 2608*a^2 + 648*a - 152 2*a^6 - 4*a^5 - 54*a^4 + 136*a^3 + 80*a^2 - 28*a + 28 -136*a^4 - 178*a^3 + 2068*a^2 + 872*a - 68 -2*a^6 - 16*a^5 + 48*a^4 + 232*a^3 - 408*a^2 - 152*a + 68 over Number field with defining polynomial x^8+12*x^7-16*x^6-354*x^5-14*x^4+2554*x^3+664*x^2-210*x+4
+For conductor 221, eigenvectors are:
+-30 6 6 6 6 6 -6 8 9 0 0 -6 -2 -3 -6 0 -6 3 0 5 -2 -1 -1 0 -2 3 2 -2 over Number field with defining polynomial x-16
+5*a^4 - 200*a^3 + 2010*a^2 + 815*a - 58640 -2*a^4 + 80*a^3 - 804*a^2 - 326*a + 23456 28*a^4 - 1062*a^3 + 14230*a^2 - 78726*a + 149224 -a^4 + 70*a^3 - 1548*a^2 + 13979*a - 45044 -10*a^4 + 381*a^3 - 5089*a^2 + 27681*a - 50296 28*a^4 - 1067*a^3 + 14399*a^2 - 80641*a + 156396 -4*a^4 + 135*a^3 - 1519*a^2 + 5937*a - 2800 12*a^4 - 500*a^3 + 7364*a^2 - 45104*a + 95736 -15*a^4 + 536*a^3 - 6424*a^2 + 29485*a - 42866 -5*a^4 + 195*a^3 - 2777*a^2 + 16998*a - 37184 9*a^4 - 346*a^3 + 4676*a^2 - 26195*a + 51772 -12*a^4 + 502*a^3 - 7442*a^2 + 45950*a - 98212 -a^4 + 50*a^3 - 784*a^2 + 4551*a - 7196 4*a^4 - 171*a^3 + 2620*a^2 - 16794*a + 36895 a^4 - 63*a^3 + 1279*a^2 - 10776*a + 33106 2*a^4 - 83*a^3 + 1218*a^2 - 7450*a + 15925 4*a^4 - 135*a^3 + 1456*a^2 - 5046*a + 1243 -a^4 + 62*a^3 - 1244*a^2 + 10111*a - 28596 -3*a^4 + 95*a^3 - 874*a^2 + 1645*a + 4453 -3*a^3 - 1*a^2 + 727*a - 3568 -3*a^4 + 123*a^3 - 1763*a^2 + 10430*a - 21458 2*a^4 - 85*a^3 + 1281*a^2 - 8317*a + 20528 a^4 - 16*a^3 - 188*a^2 + 4113*a - 15426 14*a^3 - 402*a^2 + 3726*a - 11032 -27*a^3 + 861*a^2 - 8583*a + 25818 -a^4 + 37*a^3 - 546*a^2 + 3707*a - 9101 5*a^3 - 184*a^2 + 1894*a - 5045 -10*a^3 + 353*a^2 - 3809*a + 12217 over Number field with defining polynomial x^5-51*x^4+989*x^3-9002*x^2+37788*x-57388
+a vector of length 28 over Number field with defining polynomial a number field of degree 13
+0 0 144*a^8 + 720*a^7 - 5136*a^6 - 30384*a^5 + 20976*a^4 + 318240*a^3 + 559680*a^2 + 370128*a + 88272 24*a^8 - 168*a^7 - 2736*a^6 + 56856*a^4 + 130080*a^3 + 21096*a^2 - 113616*a - 56256 -48*a^8 - 240*a^7 + 1872*a^6 + 9216*a^5 - 14520*a^4 - 72312*a^3 + 19920*a^2 + 166416*a + 78336 -72*a^8 - 360*a^7 + 2568*a^6 + 15192*a^5 - 10488*a^4 - 159120*a^3 - 279840*a^2 - 185064*a - 44136 96*a^8 + 552*a^7 - 2832*a^6 - 20664*a^5 - 3168*a^4 + 145944*a^3 + 238536*a^2 + 81144*a - 12648 -16*a^8 - 128*a^7 - 224*a^6 + 432*a^5 + 10208*a^4 + 68800*a^3 + 150720*a^2 + 101920*a + 22768 0 -60*a^7 - 516*a^6 + 576*a^5 + 10524*a^4 + 2532*a^3 - 57720*a^2 - 57768*a - 10428 24*a^8 + 96*a^7 - 996*a^6 - 5148*a^5 + 1680*a^4 + 39348*a^3 + 71508*a^2 + 66012*a + 22416 -12*a^8 - 96*a^7 - 168*a^6 + 324*a^5 + 7656*a^4 + 51600*a^3 + 113040*a^2 + 76440*a + 17076 8*a^8 - 56*a^7 - 912*a^6 + 18952*a^4 + 43360*a^3 + 7032*a^2 - 37872*a - 18752 -18*a^8 - 126*a^7 + 456*a^6 + 3762*a^5 - 900*a^4 - 22632*a^3 - 10068*a^2 + 19548*a + 10248 -18*a^8 - 180*a^7 + 24*a^6 + 5166*a^5 + 15006*a^4 - 3966*a^3 - 54360*a^2 - 48690*a - 10902 18*a^8 + 120*a^7 - 846*a^6 - 6330*a^5 + 2478*a^4 + 73110*a^3 + 150522*a^2 + 115476*a + 29142 -12*a^8 - 60*a^7 + 468*a^6 + 2304*a^5 - 3630*a^4 - 18078*a^3 + 4980*a^2 + 41604*a + 19584 -18*a^8 - 24*a^7 + 1044*a^6 + 2568*a^5 - 13386*a^4 - 45258*a^3 - 13398*a^2 + 42810*a + 23862 12*a^8 + 48*a^7 - 498*a^6 - 2574*a^5 + 840*a^4 + 19674*a^3 + 35754*a^2 + 33006*a + 11208 -64*a^7 - 644*a^6 - 148*a^5 + 15324*a^4 + 48904*a^3 + 45640*a^2 + 4396*a - 7628 -4*a^7 - 260*a^6 - 1712*a^5 + 1052*a^4 + 33652*a^3 + 93636*a^2 + 90016*a + 26260 44*a^7 + 268*a^6 - 820*a^5 - 7176*a^4 - 3652*a^3 + 37708*a^2 + 59384*a + 23264 44*a^7 + 296*a^6 - 168*a^5 - 4656*a^4 - 12276*a^3 - 20688*a^2 - 24620*a - 10712 100*a^6 + 804*a^5 - 276*a^4 - 15004*a^3 - 30796*a^2 - 8160*a + 3772 -4*a^8 + 318*a^6 + 1174*a^5 - 2190*a^4 - 17886*a^3 - 28450*a^2 - 11588*a - 204 42*a^7 + 408*a^6 - 22*a^5 - 9416*a^4 - 24874*a^3 - 13200*a^2 + 7430*a + 5552 -6*a^7 + 24*a^6 + 432*a^5 - 366*a^4 - 10118*a^3 - 23856*a^2 - 20092*a - 5958 6*a^7 - 4*a^6 - 400*a^5 - 418*a^4 + 5190*a^3 + 6188*a^2 - 11724*a - 8888 over Number field with defining polynomial x^9+5*x^8-43*x^7-258*x^6+228*x^5+3196*x^4+5214*x^3+1152*x^2-2284*x-1046
+For conductor 442, eigenvectors are:
+1 over Number field with defining polynomial x+9
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+5 23 43 106 254 456 788 1188 1275 2058 1691 2151 2430 3246 3726 5034 5121 5500 7624 6664 6820 9576 
+computing eigenvalues for k = 1, took 52.886202 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-20 -18 -56 
+computing eigenvalues for k = 2, took 0.257701 sec
+traces of hecke eigenvalues of T_{p^1} are:
+1 -9 -9 -34 46 108 -4 96 -77 -14 59 -1 -178 102 582 -366 53 404 324 -248 -588 64 
+computing eigenvalues for k = 1, took 13.222820 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-8 14 4 
+computing eigenvalues for k = 2, took 0.246216 sec
+traces of hecke eigenvalues of T_{p^1} are:
+40 156 400 1464 7240 12720 25260 30784 52060 70644 81400 106080 151740 208920 230764 305320 363024 394420 499360 578760 712980 922180 
+computing eigenvalues for k = 1, took 53.689831 sec
+traces of hecke eigenvalues of T_{p^2} are:
+120 780 2800 
+computing eigenvalues for k = 2, took 0.256572 sec
+traces of hecke eigenvalues of T_{p^1} are:
+16 12 76 84 364 720 876 1012 1660 1332 1768 1788 3420 3444 2956 4396 4692 5764 7096 6972 9636 8212 
+computing eigenvalues for k = 1, took 53.441255 sec
+traces of hecke eigenvalues of T_{p^2} are:
+24 -84 208 
+computing eigenvalues for k = 2, took 0.258570 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-1 7 -7 2 18 20 420 24 -85 -526 413 137 86 -1094 -546 -402 -229 -1276 1964 88 -44 -960 
+computing eigenvalues for k = 1, took 9.229684 sec
+traces of hecke eigenvalues of T_{p^2} are:
+8 -10 -92 
+computing eigenvalues for k = 2, took 0.257137 sec
+traces of hecke eigenvalues of T_{p^1} are:
+11 47 21 134 474 480 1116 892 1395 1442 2133 2393 2630 3154 3846 3886 5167 4564 7336 7392 7076 8352 
+computing eigenvalues for k = 1, took 53.594511 sec
+traces of hecke eigenvalues of T_{p^2} are:
+4 126 -232 
+computing eigenvalues for k = 2, took 0.253484 sec
+traces of hecke eigenvalues of T_{p^1} are:
+30 56 106 258 724 1146 2168 2070 3152 3848 3164 4456 5752 7356 7328 9648 11766 10640 10786 13572 14044 18792 
+computing eigenvalues for k = 1, took 54.395920 sec
+traces of hecke eigenvalues of T_{p^2} are:
+40 24 48 
+computing eigenvalues for k = 2, took 0.257375 sec
+traces of hecke eigenvalues of T_{p^1} are:
+33 100 207 519 1513 1862 2830 3788 5230 6284 8040 8490 11125 14336 14579 18694 19608 21302 25466 29104 32317 36891 
+computing eigenvalues for k = 1, took 53.093897 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-28 -24 56 
+computing eigenvalues for k = 2, took 0.251433 sec
+traces of hecke eigenvalues of T_{p^1} are:
+188 438 878 2012 5684 7758 12592 14674 20110 24346 27114 32076 39858 49978 54566 64936 72980 76550 86588 94642 112390 134388 
+computing eigenvalues for k = 1, took 52.107248 sec
+traces of hecke eigenvalues of T_{p^2} are:
+192 444 1424 
+computing eigenvalues for k = 2, took 0.251544 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-15 -45 33 -17 106 1 -727 96 909 161 583 496 -1368 -867 887 3143 -127 -260 1518 1149 -2867 -851 
+computing eigenvalues for k = 1, took 9.001722 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-23 -122 -101 
+computing eigenvalues for k = 2, took 0.252064 sec
+traces of hecke eigenvalues of T_{p^1} are:
+4 36 28 108 496 492 900 820 1348 1380 1744 2544 3180 3792 3892 4072 4404 5764 5836 7728 7236 9124 
+computing eigenvalues for k = 1, took 52.532484 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-24 60 -176 
+computing eigenvalues for k = 2, took 0.259261 sec
+traces of hecke eigenvalues of T_{p^1} are:
+4 -28 48 -48 -92 260 180 144 180 -636 48 -468 876 -804 -1436 108 -704 -76 1724 -332 2516 -1100 
+computing eigenvalues for k = 1, took 9.134990 sec
+traces of hecke eigenvalues of T_{p^2} are:
+8 60 128 
+computing eigenvalues for k = 2, took 0.258837 sec
+For conductor 2:
+For conductor 13:
+For conductor 26:
+traces of hecke eigenvalues of T_{p^1} are:
+4 46 34 142 260 700 1152 1002 1050 2038 2080 1800 3056 3476 3028 4020 4254 4710 7160 6112 8624 7986 
+computing eigenvalues for k = 1, took 226.625951 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-24 120 -128 
+computing eigenvalues for k = 2, took 2.235392 sec
+traces of hecke eigenvalues of T_{p^1} are:
+8 34 82 94 316 752 736 1074 1798 1474 1544 2096 2336 2796 3884 4252 4494 6466 5860 6744 8656 8390 
+computing eigenvalues for k = 1, took 225.838666 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-8 48 256 
+computing eigenvalues for k = 2, took 2.340674 sec
+traces of hecke eigenvalues of T_{p^1} are:
+15 41 75 94 470 500 680 1284 965 2034 2265 2215 3330 4070 4374 4350 4249 5080 5860 7500 8880 9160 
+computing eigenvalues for k = 1, took 224.610470 sec
+traces of hecke eigenvalues of T_{p^2} are:
+20 90 200 
+computing eigenvalues for k = 2, took 2.264058 sec
+traces of hecke eigenvalues of T_{p^1} are:
+3 1 47 -38 14 40 -16 416 -515 66 545 -41 786 -178 -18 62 -1147 -760 488 196 1760 -152 
+computing eigenvalues for k = 1, took 176.165113 sec
+traces of hecke eigenvalues of T_{p^2} are:
+8 2 124 
+computing eigenvalues for k = 2, took 1.085159 sec
+traces of hecke eigenvalues of T_{p^1} are:
+65 108 265 587 2067 2506 4446 4800 6918 8434 9308 10734 14417 16190 19307 24070 24634 25106 32162 31614 36703 46653 
+computing eigenvalues for k = 1, took 221.892385 sec
+traces of hecke eigenvalues of T_{p^2} are:
+60 -132 120 
+computing eigenvalues for k = 2, took 2.274069 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-8 18 16 -141 208 -79 109 292 1192 -77 82 -843 -822 -517 1019 617 -2132 3340 -1428 -2487 -5667 1479 
+computing eigenvalues for k = 1, took 187.539191 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-13 -72 -123 
+computing eigenvalues for k = 2, took 0.905751 sec
+For conductor 17:
+For conductor 34:
+traces of hecke eigenvalues of T_{p^1} are:
+10 46 80 194 360 540 950 784 1050 1744 1580 2280 2400 3780 4594 4340 5844 5580 7020 5980 7620 9360 
+computing eigenvalues for k = 1, took 218.127227 sec
+traces of hecke eigenvalues of T_{p^2} are:
+0 120 240 
+computing eigenvalues for k = 2, took 2.220287 sec
+traces of hecke eigenvalues of T_{p^1} are:
+7 -18 -15 -43 -72 -69 -195 42 222 443 153 -58 317 -353 -791 -203 -723 -1070 898 -1089 -1298 1361 
+computing eigenvalues for k = 1, took 186.611691 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-4 -54 -53 
+computing eigenvalues for k = 2, took 0.869970 sec
+traces of hecke eigenvalues of T_{p^1} are:
+65 174 319 785 2277 3150 5200 6126 8736 10104 11048 13282 16153 20820 22359 25510 29556 31888 35484 40480 45341 58927 
+computing eigenvalues for k = 1, took 215.693702 sec
+traces of hecke eigenvalues of T_{p^2} are:
+20 108 152 
+computing eigenvalues for k = 2, took 2.242686 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-12 27 38 -230 160 36 606 92 765 -504 390 -1144 -647 -1632 1220 -814 -1514 406 -808 -1480 807 3472 
+computing eigenvalues for k = 1, took 186.081410 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-27 -8 10 
+computing eigenvalues for k = 2, took 0.871547 sec
+For conductor 221:
+traces of hecke eigenvalues of T_{p^1} are:
+16 36 36 202 476 454 822 680 1668 2082 1432 2088 3528 4320 3390 4532 4792 4654 6410 8252 8792 8982 
+computing eigenvalues for k = 1, took 215.622396 sec
+traces of hecke eigenvalues of T_{p^2} are:
+24 60 -112 
+computing eigenvalues for k = 2, took 2.159482 sec
+traces of hecke eigenvalues of T_{p^1} are:
+51 134 271 645 1775 2582 4266 4680 6604 8144 8904 10558 13453 16998 18705 22438 26696 27210 32024 34290 39407 47403 
+computing eigenvalues for k = 1, took 216.229543 sec
+traces of hecke eigenvalues of T_{p^2} are:
+4 24 168 
+computing eigenvalues for k = 2, took 2.240482 sec
+traces of hecke eigenvalues of T_{p^1} are:
+160 388 764 1660 5316 7192 11418 13484 18192 22622 25982 29256 37022 46542 50512 58856 64626 70142 86142 92154 105018 125600 
+computing eigenvalues for k = 1, took 221.169302 sec
+traces of hecke eigenvalues of T_{p^2} are:
+120 300 912 
+computing eigenvalues for k = 2, took 2.166479 sec
+traces of hecke eigenvalues of T_{p^1} are:
+-5 -59 49 -45 32 -129 -63 170 199 -545 1123 -742 -970 2183 -719 2363 415 2108 -348 1559 -1479 -777 
+computing eigenvalues for k = 1, took 172.052018 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-17 -90 -237 
+computing eigenvalues for k = 2, took 0.757422 sec
+For conductor 442:
+traces of hecke eigenvalues of T_{p^1} are:
+-9 -9 -7 28 -34 12 -166 80 19 474 -85 121 -474 854 -564 2 255 188 -1264 356 760 -104 
+computing eigenvalues for k = 1, took 343.114561 sec
+traces of hecke eigenvalues of T_{p^2} are:
+6 4 16 
+computing eigenvalues for k = 2, took 0.674493 sec
