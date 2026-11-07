@@ -46,6 +46,8 @@ The fields for each modular form are as follows.
 * 'trace_lambda_p_square' : an array of the traces of the elements of 'lambda_p_square'.
 * 'atkin_lehner_eigenvals' : an array of pairs, each consists of a divisor d of N, and the eigenvalue of the form under the Atkin-Lehner operator W_d.
 * 'atkin_lehner_string' : a string of '+' or '-', corresponding to the Atkin-Lehner eigenvalues at the different primes in ascending order.
+
+  Both Atkin-Lehner fields give the signs of the paramodular form, not the spinor character of the orthogonal modular form. A form in the space with radical character of conductor d has, for each prime p dividing N, the sign e_p if p does not divide d and -e_p if it does, where e_p is the Eichler invariant at p of the lattice in *qf5db.sage* (taken to be +1 when p^2 divides N). See Theorem 10.1 of Dummigan-Pacetti-Rama-Tornaria.
 * 'hecke_ring_index' : The index of the Hecke ring inside the ring of integer of the number field. 
 * 'hecke_ring_generator_nbound' : The maximal index in the array of eigenvalues one needs in order that they generate the entire Hecke ring.
 
