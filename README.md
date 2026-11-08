@@ -44,12 +44,12 @@ The fields for each modular form are as follows.
 * 'lambda_p_square' : an array of arrays, representing the eigenvalues of the form with respect to the Hecke operator *T(p,2)* in the supplied basis of the Hecke ring for prime p < 100 not dividing N.
 * 'trace_lambda_p' : an array of the traces of the elements of 'lambda_p'.
 * 'trace_lambda_p_square' : an array of the traces of the elements of 'lambda_p_square'.
-* 'atkin_lehner_eigenvals' : an array of pairs, each consists of a divisor d of N, and the eigenvalue of the form under the Atkin-Lehner operator W_d.
+* 'atkin_lehner_eigenvals' : an array of pairs [p, e], one for each prime p dividing N in ascending order, where e = 1 or -1 is the eigenvalue of the paramodular form under the Atkin-Lehner operator at p.
 * 'atkin_lehner_string' : a string of '+' or '-', corresponding to the Atkin-Lehner eigenvalues at the different primes in ascending order.
-
-  Both Atkin-Lehner fields give the signs of the paramodular form, not the spinor character of the orthogonal modular form. A form in the space with radical character of conductor d has, for each prime p dividing N, the sign e_p if p does not divide d and -e_p if it does, where e_p is the Eichler invariant at p of the lattice in *qf5db.sage* (taken to be +1 when p^2 divides N). See Theorem 10.1 of Dummigan-Pacetti-Rama-Tornaria.
 * 'hecke_ring_index' : The index of the Hecke ring inside the ring of integer of the number field. 
 * 'hecke_ring_generator_nbound' : The maximal index in the array of eigenvalues one needs in order that they generate the entire Hecke ring.
+
+Both Atkin-Lehner fields give the signs of the paramodular form, not the spinor character of the orthogonal modular form. A form in the space with radical character of conductor d has, for each prime p dividing N, the sign e_p if p does not divide d and -e_p if it does, where e_p is the Eichler invariant at p of the lattice in *qf5db.sage* (+1 when p^2 divides N). See Theorem 10.1 of Dummigan-Pacetti-Rama-Tornaria. When 2 exactly divides N, e_2 was not computed from the lattice but chosen so that the number of primes with e_p = -1 is odd, as it is for every lattice of odd level in *qf5db.sage*; with this choice the stored signs satisfy the rule above for every form.
 
 The subfolder **data_nl_200** contains files named *hecke_ev_3_0_nl_200_{N}.dat*. Each file contains an array of modular forms, as above, but only for the newforms which are nonlifts (automorphic type is 'G'), and the array of eigenvalues is for primes p < 200.
 
