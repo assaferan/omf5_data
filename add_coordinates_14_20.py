@@ -16,7 +16,7 @@ traces of T(p,1), p < 100 (unique, and the traces of T(p,2) must agree):
     the ring of integers, with no need to factor disc(f), which is
     disc(O_K) [O_K : Z[a]]^2 and has hundreds of digits;
   - hecke_ring_index = [O_K : H], hecke_ring_generator_nbound as in
-    recompute_hecke_rings.py, and the coordinates in Sage's basis of H;
+    recompute_hecke_rings.py (the smallest n such that the lambda_j, j <= n, generate H), and the coordinates in Sage's basis of H;
   - the field: its discriminant disc(O_K) (factored with the primes of
     disc(H)) and the polredabs polynomial of pari's nfinit([f, basis of O_K]).
 
@@ -113,20 +113,20 @@ def orbit_data(N, F, lambda_p, lambda_p_square):
     """The new omf5_data fields of an orbit and its field record."""
     d = F.degree()
     a = F.gen()
-    lam = [(i, x) for i, x in enumerate(lambda_p) if x != 'NULL']
-    lam2 = [x for x in lambda_p_square if x != 'NULL']
-    H_lam = ring_closure(F, [list(x) for _, x in lam])
-    H = ring_closure(F, H_lam + [vector(QQ, list(x)) for x in lam2])
+    ps = prime_range(B)
+    lamj = sorted([(p, x) for p, x in zip(ps, lambda_p) if x != 'NULL'] +
+                  [(p * p, x) for p, x in zip(ps, lambda_p_square) if x != 'NULL'], key=lambda t: t[0])
+    H = ring_closure(F, [vector(QQ, list(x)) for _, x in lamj])
     assert len(H) == d, "the eigenvalues do not generate an order"
-    # nbound: the first p_idx at which the lambda_p up to it generate H_lam
-    dH_lam = disc(F, H_lam)
-    nbound, M = None, []
-    for i, x in lam:
-        M = ring_closure(F, M + [vector(QQ, list(x))])
-        if len(M) == d and disc(F, M) == dH_lam:
-            nbound = i
+    # nbound: the smallest n such that the lambda_j (lambda_p for j = p, lambda_p_square for j = p^2) with
+    # j <= n generate H; 1 if H = Z
+    nbound, M = 1, ring_closure(F, [])
+    for j, x in lamj:
+        if M == H:
             break
-    assert nbound is not None
+        M = ring_closure(F, M + [vector(QQ, list(x))])
+        nbound = j
+    assert M == H
     dH = disc(F, H)
     fac = proved_factorization(abs(dH))
     P = [int(p) for p, e in fac if e >= 2]

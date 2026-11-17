@@ -27,7 +27,7 @@ import os
 import re
 import sys
 
-from sage.all import Matrix, QQ, ZZ, NumberField, lcm, pari, polygen, prod, vector
+from sage.all import Matrix, QQ, ZZ, NumberField, lcm, pari, polygen, prime_range, prod, vector
 
 
 def load(fname):
@@ -75,16 +75,17 @@ def check(r, e):
     basis = [sum(n * a**i for i, n in enumerate(nums)) / den
              for nums, den in zip(e['hecke_ring_numerators'], e['hecke_ring_denominators'])]
     H = hnf([vector(QQ, list(b)) for b in basis])
-    lam = [(i, sum(c * b for c, b in zip(v, basis))) for i, v in enumerate(e['lambda_p']) if v != 'NULL']
-    lam2 = [sum(c * b for c, b in zip(v, basis)) for v in e['lambda_p_square'] if v != 'NULL']
-    H_lam = ring_closure(F, [list(y) for _, y in lam])
-    assert ring_closure(F, H_lam + [list(y) for y in lam2]) == H, "the basis is not the Hecke ring"
-    dH_lam, M, nbound = disc(F, H_lam), [], None
-    for i, y in lam:
-        M = ring_closure(F, M + [list(y)])
-        if len(M) == d and disc(F, M) == dH_lam:
-            nbound = i
+    ps = prime_range(100)
+    lamj = sorted([(p, sum(c * b for c, b in zip(v, basis))) for p, v in zip(ps, e['lambda_p']) if v != 'NULL'] +
+                  [(p * p, sum(c * b for c, b in zip(v, basis))) for p, v in zip(ps, e['lambda_p_square'])
+                   if v != 'NULL'], key=lambda t: t[0])
+    assert ring_closure(F, [list(y) for _, y in lamj]) == H, "the basis is not the Hecke ring"
+    nbound, M = 1, ring_closure(F, [])
+    for j, y in lamj:
+        if M == H:
             break
+        M = ring_closure(F, M + [list(y)])
+        nbound = j
     assert nbound == e['hecke_ring_generator_nbound'], "nbound"
     dH = disc(F, H)
     fac = r['hecke_ring_disc_factorization']
