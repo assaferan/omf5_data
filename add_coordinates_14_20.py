@@ -1,8 +1,9 @@
 """
-Eigenvalue coordinates for the G orbits of dimension 14-20 of omf5_data
-(hecke_evs_3_0/data), from runs of omf5 at precision 100:
+Eigenvalue coordinates for the orbits of dimension 14-20 of omf5_data
+(hecke_evs_3_0/data) of types G, P and Y, from runs of omf5 at precision 100:
 
-    src/omf5 -genus=qf5db.sage -isom -nonlifts -disc=N -prec=100
+    src/omf5 -genus=qf5db.sage -isom -nonlifts -disc=N -prec=100   (G)
+    src/omf5 -genus=qf5db.sage -isom -disc=N -prec=100             (all types)
 
 For each such orbit, matched to the form of the run with the same field_poly and
 traces of T(p,1), p < 100 (unique, and the traces of T(p,2) must agree):
@@ -25,7 +26,9 @@ OUTDIR/fields_N.json, one record per orbit:
     {level, field_poly, hecke_ring_disc_factorization, field_disc,
      field_disc_factorization, polredabs}
 
-    sage -python add_coordinates_14_20.py RUNDIR DATADIR OUTDIR N [N ...]
+    sage -python add_coordinates_14_20.py [--types=GPY] RUNDIR DATADIR OUTDIR N [N ...]
+
+--types lists the types of the orbits to do (default G, those of the -nonlifts runs).
 
 The runs used omf5 at commit a5ced0b (branch square-test of assaferan/omf5), built against FLINT 3.6.0.
 """
@@ -191,7 +194,7 @@ def orbit_data(N, F, lambda_p, lambda_p_square):
     return new, record
 
 
-def process(N, rundir, datadir, outdir):
+def process(N, rundir, datadir, outdir, types='G'):
     ps = prime_range(B)
     sq_ps = prime_range(sqrt(B))
     fname = os.path.join(datadir, "hecke_ev_3_0_%d.dat" % N)
@@ -202,12 +205,14 @@ def process(N, rundir, datadir, outdir):
     records = []
     for idx, e in enumerate(entries):
         dim = len(e['field_poly']) - 1
-        if e['aut_rep_type'] != 'G' or e.get('lambda_p') or not MIN_DEG <= dim <= MAX_DEG:
+        if e['aut_rep_type'] not in types or e.get('lambda_p') or not MIN_DEG <= dim <= MAX_DEG:
             continue
         t0 = time.time()
         # (the stored Atkin-Lehner signs are those of the paramodular form, not the spinor conductor of the run)
         m = [f for f in forms if f[0] == e['field_poly']
              and [int(f[2][p].trace()) if p in f[2] else 'NULL' for p in ps] == e['trace_lambda_p']]
+        # (a run with lifts can have an eigenvalue system more than once, for different spinor characters)
+        m = [f for i, f in enumerate(m) if all(f[2:] != g[2:] for g in m[:i])]
         assert len(m) == 1, "level %d: %d forms of the run for an orbit of dimension %d" % (N, len(m), dim)
         coeffs, F, lp, lp2 = m[0]
         lambda_p = ['NULL' if N % p == 0 else lp[p] for p in ps]
@@ -218,7 +223,7 @@ def process(N, rundir, datadir, outdir):
         for k in ['field_poly', 'atkin_lehner_eigenvals', 'trace_lambda_p', 'aut_rep_type', 'atkin_lehner_string',
                   'trace_lambda_p_square']:
             new[k] = e[k]
-        entries[idx] = {k: new[k] for k in KEYS}
+        entries[idx] = dict({k: new[k] for k in KEYS}, **{k: e[k] for k in e if k not in KEYS})
         records.append(dict({'level': N, 'field_poly': e['field_poly']}, **record))
         print("level %d: orbit %d of dimension %d, index %d, nbound %d, disc(H) %d digits (%.1fs)"
               % (N, idx, dim, new['hecke_ring_index'], new['hecke_ring_generator_nbound'],
@@ -231,8 +236,12 @@ def process(N, rundir, datadir, outdir):
 
 
 if __name__ == '__main__':
-    rundir, datadir, outdir = sys.argv[1:4]
+    args = sys.argv[1:]
+    types = 'G'
+    if args[0].startswith('--types='):
+        types = args.pop(0)[len('--types='):]
+    rundir, datadir, outdir = args[:3]
     total = 0
-    for N in map(int, sys.argv[4:]):
-        total += process(N, rundir, datadir, outdir)
+    for N in map(int, args[3:]):
+        total += process(N, rundir, datadir, outdir, types)
     print("orbits given coordinates:", total)
