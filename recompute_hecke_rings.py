@@ -28,7 +28,7 @@ import re
 import sys
 
 from sage.all import Matrix, QQ, ZZ, NumberField, polygen, prime_range, vector
-from sage.rings.number_field.order import absolute_order_from_module_generators
+from rebasis_hecke_rings import reduced_basis
 
 
 def load(fname):
@@ -97,9 +97,8 @@ def recompute(e):
         new = dict(e)
         new['hecke_ring_generator_nbound'] = int(nbound)
         return new, info
-    O = absolute_order_from_module_generators([elt(r) for r in H], check_integral=False, check_rank=False,
-                                              check_is_ring=False)
-    mat = Matrix([list(b) for b in O.basis()])
+    # a basis of H starting with 1, reduced against lambda_p (rebasis_hecke_rings.reduced_basis)
+    mat = reduced_basis(Matrix(QQ, [list(elt(r)) for r in H]), [vector(QQ, list(elt(v))) for j, v in lamj if j in ps])
     inv = mat**(-1)
     new = dict(e)     # keeps the key order
     new['hecke_ring_index'] = int(index)
