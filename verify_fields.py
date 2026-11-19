@@ -4,7 +4,7 @@ Check hecke_evs_3_0/fields.json against hecke_evs_3_0/data, without factoring an
 For the orbits of dimension 14-20 the ring of integers was not computed by
 factoring the discriminant of field_poly (which is disc(O_K) [O_K : Z[a]]^2 and
 has hundreds of digits) but from the factorization of the discriminant of the
-Hecke ring H, which is disc(O_K) [O_K : H]^2 and has at most about 60 digits.
+Hecke ring H, which is disc(O_K) [O_K : H]^2 and has at most 85 digits.
 fields.json records that factorization as a certificate.  For each record this
 script checks that:
 
