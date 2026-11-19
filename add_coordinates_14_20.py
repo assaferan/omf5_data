@@ -39,7 +39,7 @@ import sys
 import time
 
 from sage.all import Matrix, PolynomialRing, QQ, ZZ, NumberField, lcm, pari, prime_range, sage_eval, sqrt, vector
-from sage.rings.number_field.order import absolute_order_from_module_generators
+from rebasis_hecke_rings import reduced_basis
 
 B = 100
 MIN_DEG, MAX_DEG = 14, 20
@@ -157,10 +157,8 @@ def orbit_data(N, F, lambda_p, lambda_p_square):
     assert rest == 1
     if dK < 0:
         fdisc = [[-1, 1]] + fdisc
-    # Sage's basis of H, as parse_omf5 and recompute_hecke_rings.py
-    O = absolute_order_from_module_generators([F(list(r)) for r in H], check_integral=False, check_rank=False,
-                                              check_is_ring=False)
-    mat = Matrix([list(b) for b in O.basis()])
+    # a basis of H starting with 1, reduced against lambda_p (rebasis_hecke_rings.reduced_basis)
+    mat = reduced_basis(Matrix(QQ, H), [vector(QQ, list(x)) for x in lambda_p if x != 'NULL'])
     inv = mat**(-1)
     new = {
         'hecke_ring_generator_nbound': int(nbound),
