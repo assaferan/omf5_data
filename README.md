@@ -27,6 +27,9 @@ Each file contains a dictionary, whose keys are the possible conductors *d* for 
 
 The value at *d* is the matrix representing the Hecke Operator *T(p,1)* on the space of paramodular forms of weight (3,0), level N and coresponding Atkin-Lehner signs.
 
+### Hecke eigenvalues beyond p < 100
+Folder **hecke_evs_ext** holds raw omf5 output for T(p) at larger primes and T(p,2) at p > 7, for the spaces whose L-functions were computed. See its README.
+
 ### Hecke eigensystems
 Folder **hecke_evs_3_0** contains three subfolders - **data**, **data_nl_200** and **logs**.
 The subfolder **data** contains files named *hecke_ev_3_0_{N}.dat*. Each file contains an array of dictionaries, each dictionary corresponds to a modular form in the space of 

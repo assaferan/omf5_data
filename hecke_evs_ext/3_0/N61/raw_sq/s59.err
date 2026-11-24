@@ -1,0 +1,42 @@
+computing genus took 0.054463 sec
+recomputing genus took 0.069850 sec
+The possible conductors are: 
+1 61 
+The corresponding dimensions are: 8 0 
+Warning: without -prec the types of the forms are not determined: they are printed as U, and as O for the old forms. Use -prec=L to determine them.
+constructing eigenvector for poly
+x+7
+constructing eigenvector for poly
+x-15
+constructing eigenvector for poly
+x^6-29*x^5+322*x^4-1714*x^3+4471*x^2-5205*x+2026
+computing eigenvectors took 0.015024 sec
+For conductor 1, eigenvectors are:
+0 -6 6 4 12 0 -12 -3 over Number field with defining polynomial x+7
+1 1 1 1 1 1 1 1 over Number field with defining polynomial x-15
+8*a^5 - 184*a^4 + 1532*a^3 - 5656*a^2 + 9076*a - 5160 -a^5 + 30*a^4 - 318*a^3 + 1458*a^2 - 2821*a + 1844 -a^5 + 31*a^4 - 349*a^3 + 1767*a^2 - 3942*a + 3134 -2*a^4 + 28*a^3 - 74*a^2 - 224*a + 464 -6*a^4 + 146*a^3 - 1190*a^2 + 3738*a - 3616 -a^4 + 9*a^3 - 35*a^2 + 131*a - 136 -4*a^4 + 84*a^3 - 560*a^2 + 1304*a - 856 -3*a^4 + 59*a^3 - 395*a^2 + 1089*a - 1006 over Number field with defining polynomial x^6-29*x^5+322*x^4-1714*x^3+4471*x^2-5205*x+2026
+For conductor 61, eigenvectors are:
+Found form of type U at total_idx = 0, c = 0, form_idx = 0
+Found form of type U at total_idx = 1, c = 0, form_idx = 1
+Found form of type U at total_idx = 2, c = 0, form_idx = 2
+For conductor 1:
+traces of hecke eigenvalues of T_{p^1} are:
+-45 
+computing eigenvalues for k = 1, took 0.464344 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-1608 
+computing eigenvalues for k = 2, took 631.498245 sec
+traces of hecke eigenvalues of T_{p^1} are:
+208920 
+computing eigenvalues for k = 1, took 0.332572 sec
+traces of hecke eigenvalues of T_{p^2} are:
+12326280 
+computing eigenvalues for k = 2, took 649.007528 sec
+traces of hecke eigenvalues of T_{p^1} are:
+19388 
+computing eigenvalues for k = 1, took 0.312427 sec
+traces of hecke eigenvalues of T_{p^2} are:
+-90240 
+computing eigenvalues for k = 2, took 616.335910 sec
+For conductor 61:
+p=59 wall=1898.21 s
