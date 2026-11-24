@@ -7,7 +7,7 @@ Each output is a dictionary keyed by the conductor d of the spinor character, as
 - `lambda_p` is the T(p) eigenvalue, as a polynomial in a root `a` of `field_poly`.
 - `lambda_p_square` is the T(p,2) eigenvalue. It is printed only when the run used `-square`.
 
-Types print as U because the runs do not use `-prec`. At p | N the T(p) value is omf5's eigenvalue lambda. For p exactly dividing N, the coefficient a_p of the L-function is c = lambda + eps_p p^a, where eps_p is the Atkin-Lehner sign and a = k - 3 + j/2 (a = 0 for weight (3,0)).
+Types print as U because the runs do not use `-prec`. For p exactly dividing N, the printed T(p) value is the coefficient a_p = c of the L-function. The Euler factor is (1 - (c + eps_p p^(a+1)) x + p^w x^2)(1 + eps_p p^(a+1) x), where eps_p is the Atkin-Lehner sign, a = k - 3 + j/2 and w = 2k + j - 3 (a = 0 and w = 3 for weight (3,0)).
 
 ## 3_0/N61: weight (3,0), level 61
 
@@ -24,4 +24,43 @@ The space at d = 1 has dimension 8:
 | `'7  2026 -5205 4471 -1714 322 -29 1'` (degree 6) | 2.K.61.3.0.a.b (Saito-Kurokawa lifts) |
 | `'2  -15 1'` (lambda_2 = 15) | the Eisenstein series |
 
-At p = 61, 2.K.61.3.0.a.a has lambda = 145 and eps_61 = -1, so c = 144. The bad Euler factor is (1 - 83x + 61^3 x^2)(1 - 61x).
+At p = 61, 2.K.61.3.0.a.a has c = 145 and eps_61 = -1, so the bad Euler factor is (1 - 84x + 61^3 x^2)(1 - 61x). With it, PARI's lfuncheckfeq on 1084 coefficients holds with root number +1 to 2^-191, and the L-function calculator certifies the L-function (rank 0, root number +1). The factor (1 - 83x + 61^3 x^2)(1 - 61x), from c = 145 + eps_61, holds only to 2^-47 and is not certified.
+
+## Reduced files
+
+Where noted below, a file is reduced. Orbits of degree at most 20 are kept as omf5 printed them. For a larger orbit, `lambda_p` and `lambda_p_square` are replaced by `trace_lambda_p` and `trace_lambda_p_square`, their traces from the Hecke field to Q, and `field_poly` is kept. This follows **hecke_evs_3_0**, which stores only traces for orbits of degree greater than 20. The raw output would be 4 to 500 times larger. Almost all of it is the eigenvalues of these orbits, printed as polynomials of degree up to 265 with large rational coefficients.
+
+## 3_0/N499, 3_0/N997: weight (3,0), levels 499 and 997 (reduced)
+
+T(p) at p = 53, 101 and 199 for every orbit, from timing runs. omf5 commit 0d2c6a1:
+
+    omf5 -genus=qf5db.sage -isom -disc=N -format=GG -p=p
+
+`p{p}.dat` is the reduced output. `p{p}.err` is the standard error, ending with the wall time. At p = 53 the traces agree with `trace_lambda_p` in **hecke_evs_3_0**.
+
+## 4_0/N31: weight (4,0), level 31
+
+omf5 weight (1,0), which is the paramodular weight (4,0). omf5 commit 0d2c6a1:
+
+    omf5 -genus=qf5plain.txt -disc=31 -weight=1 -prec=200     (prec.txt: T(p) for p < 200, p != 31)
+    omf5 -genus=qf5plain.txt -disc=31 -weight=1 -p=31         (p31.txt)
+
+`qf5plain.txt` is `qf5.db` of this repository. Both forms have spinor conductor 31:
+
+| field_poly | orbit |
+|---|---|
+| `'2  15 1'` (lambda_2 = -15) | 2.K.31.4.0.a.a (type G) |
+| degree 5, x^5 - 51x^4 + ... | 2.K.31.4.0.a.b (Saito-Kurokawa lifts of 31.6.a.a) |
+
+The Atkin-Lehner sign of 2.K.31.4.0.a.a is eps_31 = +1. At p = 31, a = 1 and c = 7527, and the bad Euler factor is (1 - (c + 31^2) x + 31^5 x^2)(1 + 31^2 x). With this factor, PARI's lfuncheckfeq on the first 199 coefficients holds with root number +1, to 2^-57.
+
+## 3_0/bad_primes: weight (3,0), the primes dividing the level (reduced)
+
+T(p) and T(p,2) at the primes p dividing N, at 882 levels N <= 1000. **hecke_evs_3_0** stores `NULL` there. At the levels without a full run, the sweep also covers three good primes, which are used to match the omf5 forms with the stored orbits. There are 3,087 runs. omf5 commit f3e0c64, with the default output format:
+
+    omf5 -genus=qf5db.sage -isom -disc=N -p=p -square
+
+`N_p.dat` is the reduced output of one run. `times.txt` has one line per run: N, p, the exit code, the wall time and the peak memory. `one.sh` and `one2.sh` are the scripts of the two sweeps.
+
+- The runs at p = N for the prime levels 463, 491, 503, 547, 587, 631, 797, 811 and 997 had not finished after 13 hours and are not included.
+- For p not dividing N and p < 100, the degrees and T(p) traces of every run agree with **hecke_evs_3_0**, and every T(p,2) trace stored there also occurs in the run, with one exception. At level 488 (p = 3, 5, 7), commit f3e0c64 prints one old form with a rational field. **hecke_evs_3_0** gives it the field x^2 - 20x + 88, after the fix of old-form fields in omf5 PR #75, which f3e0c64 predates. The newforms are not affected.
