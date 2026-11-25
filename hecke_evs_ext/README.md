@@ -62,5 +62,6 @@ T(p) and T(p,2) at the primes p dividing N, at 882 levels N <= 1000. **hecke_evs
 
 `N_p.dat` is the reduced output of one run. `times.txt` has one line per run: N, p, the exit code, the wall time and the peak memory. `one.sh` and `one2.sh` are the scripts of the two sweeps.
 
+- Do not use the `aut_rep_type` letters in these files. Without `-prec`, commit f3e0c64 types the forms from the first two good primes only, and in 23 of these runs that marks a form as a Yoshida lift that the `-prec=100` runs show is not one. omf5 PR #72 (v1.5.0 and later) prints U instead. Take the types from **hecke_evs_3_0**, and match the forms by their eigenvalues at good primes.
 - The runs at p = N for the prime levels 463, 491, 503, 509, 547, 587 and 631 took 16 to 30 hours each, and those for 797 and 811 about 70 hours each. The run at p = N for 997 is still running and is not included yet.
 - For p not dividing N and p < 100, the degrees and T(p) traces of every run agree with **hecke_evs_3_0**, and every T(p,2) trace stored there also occurs in the run, with one exception. At level 488 (p = 3, 5, 7), commit f3e0c64 prints one old form with a rational field. **hecke_evs_3_0** gives it the field x^2 - 20x + 88, after the fix of old-form fields in omf5 PR #75, which f3e0c64 predates. The newforms are not affected.
