@@ -1,0 +1,1 @@
+{1 : [], 31 : [{ 'aut_rep_type' : 'U', 'field_poly' : '2  15 1', 'lambda_p' : ['7527',], 'lambda_p_square' : [], }, { 'aut_rep_type' : 'U', 'field_poly' : '6  -19472 24008 -7544 942 -51 1', 'lambda_p' : ['29791',], 'lambda_p_square' : [], }, ], }

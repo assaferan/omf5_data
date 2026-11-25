@@ -1,0 +1,1 @@
+{1: [{'aut_rep_type': 'F', 'field_poly': '2  -15 1', 'lambda_p': ['15'], 'lambda_p_square': ['30']}, {'aut_rep_type': 'G', 'field_poly': '3  11 7 1', 'lambda_p': ['1*a+0'], 'lambda_p_square': ['-4*a-13']}, {'aut_rep_type': 'P', 'field_poly': '10  -815910 1994880 -2053645 1165507 -401897 87567 -12107 1029 -49 1', 'lambda_p': ['a'], 'lambda_p_square': ['3*a-15']}], 101: []}
