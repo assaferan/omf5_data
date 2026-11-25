@@ -56,12 +56,12 @@ The Atkin-Lehner sign of 2.K.31.4.0.a.a is eps_31 = +1. At p = 31, a = 1 and c =
 
 ## 3_0/bad_primes: weight (3,0), the primes dividing the level (reduced)
 
-T(p) and T(p,2) at the primes p dividing N, at 882 levels N <= 1000. **hecke_evs_3_0** stores `NULL` there. At the levels without a full run, the sweep also covers three good primes, which are used to match the omf5 forms with the stored orbits. There are 3,096 runs. omf5 commit f3e0c64, with the default output format:
+T(p) and T(p,2) at the primes p dividing N, at 882 levels N <= 1000. **hecke_evs_3_0** stores `NULL` there. At the levels without a full run, the sweep also covers three good primes, which are used to match the omf5 forms with the stored orbits. There are 3,097 runs. omf5 commit f3e0c64, with the default output format:
 
     omf5 -genus=qf5db.sage -isom -disc=N -p=p -square
 
 `N_p.dat` is the reduced output of one run. `times.txt` has one line per run: N, p, the exit code, the wall time and the peak memory. `one.sh` and `one2.sh` are the scripts of the two sweeps.
 
 - Do not use the `aut_rep_type` letters in these files. Without `-prec`, commit f3e0c64 types the forms from the first two good primes only, and in 23 of 396 runs checked against `-prec=100` runs that marks a form as a Yoshida lift that is not one. omf5 PR #72 (v1.5.0 and later) prints U instead. Take the types from **hecke_evs_3_0**, and match the forms by their eigenvalues at good primes.
-- The runs at p = N for the prime levels 463, 491, 503, 509, 547, 587 and 631 took 16 to 30 hours each, and those for 797 and 811 about 70 hours each. The run at p = N for 997 is still running and is not included yet.
+- The runs at p = N for the prime levels 463, 491, 503, 509, 547, 587 and 631 took 16 to 30 hours each, those for 797 and 811 about 70 hours each, and the one for 997 about 123 hours.
 - For p not dividing N and p < 100, the degrees and T(p) traces of every run agree with **hecke_evs_3_0**, and every T(p,2) trace stored there also occurs in the run, with one exception. At level 488 (p = 3, 5, 7), commit f3e0c64 prints one old form with a rational field. **hecke_evs_3_0** gives it the field x^2 - 20x + 88, after the fix of old-form fields in omf5 PR #75, which f3e0c64 predates. The newforms are not affected.
