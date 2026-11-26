@@ -31,7 +31,7 @@ The value at *d* is the matrix representing the Hecke Operator *T(p,1)* on the s
 Folder **hecke_evs_ext** holds raw omf5 output for T(p) at larger primes and T(p,2) at p > 7, for the spaces whose L-functions were computed. See its README.
 
 ### Hecke eigensystems of weights (4,0) and (3,2)
-Folders **hecke_evs_4_0** and **hecke_evs_3_2** hold the paramodular forms of weights (4,0) and (3,2) of the levels N <= 150: 146 and 143 levels, those whose omf5 run had finished. Each **data/hecke_ev_K_J_N.dat** is in the format of **hecke_evs_3_0/data**, with T(p,2) for p <= 13 instead of p <= 7. The script *convert_weight_runs.py* wrote them from runs of omf5 at commit 855b651 with the weight and precision 200:
+Folders **hecke_evs_4_0** and **hecke_evs_3_2** hold the paramodular forms of weights (4,0) and (3,2) of all the levels 2 <= N <= 150. Each **data/hecke_ev_K_J_N.dat** is in the format of **hecke_evs_3_0/data**, with T(p,2) for p <= 13 instead of p <= 7. The script *convert_weight_runs.py* wrote them from runs of omf5 at commit 855b651 with the weight and precision 200:
 
     omf5 -genus=GENUS -disc=N -weight=1 -prec=200      (4,0)
     omf5 -genus=GENUS -disc=N -weight=1,1 -prec=200    (3,2)
@@ -42,10 +42,10 @@ omf5's weight (a, b) is the paramodular weight (a - b + 3, 2b). omf5 divides T(p
 
 - 'aut_rep_type' is the type omf5 gives, except that a form of type G is marked old ('O') when its eigenvalues at the primes not dividing N are those of a form of type G at a level M < N dividing N. The eigenvalues are compared through their characteristic polynomials, since the field_poly depends on the level. So the forms of type G are the new non-lifts. There is no lattice of discriminant 1, so an old form from level 1 would not be found. There are none: the cusp spaces of level 1 of both weights are 0.
 - The Atkin-Lehner signs follow the rule for weight 0 (see below). The sign at p is e_p, negated if p divides the conductor of the spinor character. The script reads the Eichler invariant e_p off the sign of the constant form in **hecke_evs_3_0/data**.
-- The new forms of type G of degree at most 20 have a Hecke ring and eigenvalue coordinates, computed as in *add_coordinates_14_20.py*. Their field records are in **fields.json**, in the format of **hecke_evs_3_0/fields.json**. The other forms have traces only. That covers all but 1 G orbit of weight (4,0) and 12 of weight (3,2), whose degrees go up to 25 and 40. These G orbits also have 'trace_lambda_p_squared', the traces of T(p)^2 at the primes of 'trace_lambda_p_square', which the traces of T(p^2) need.
+- The new forms of type G of degree at most 20 have a Hecke ring and eigenvalue coordinates, computed as in *add_coordinates_14_20.py*. Their field records are in **fields.json**, in the format of **hecke_evs_3_0/fields.json**. The other forms have traces only. That covers all but 2 G orbits of weight (4,0) and 14 of weight (3,2), whose degrees go up to 25 and 48. These G orbits also have 'trace_lambda_p_squared', the traces of T(p)^2 at the primes of 'trace_lambda_p_square', which the traces of T(p^2) need.
 - **summary_K_J.json** gives, for each level, the dimension of the new forms of type G for each Atkin-Lehner string, and the number of forms of each type.
 
-At every level N <= 150 where the LMFDB has the space (the squarefree levels), the dimension of the new forms of type G equals its new_cusp_G_dim: 90 levels of weight (4,0) and 88 of weight (3,2). Over all the levels there are 290 and 468 new G orbits, of total dimension 890 and 1947. The forms 2.K.31.4.0.a.a and 2.K.19.3.2.a.a have the eigenvalues and Atkin-Lehner signs stored in the LMFDB.
+At every level N <= 150 where the LMFDB has the space (the squarefree levels), the dimension of the new forms of type G equals its new_cusp_G_dim: 91 levels of each weight. Over all the levels there are 306 and 517 new G orbits, of total dimension 957 and 2259. The forms 2.K.31.4.0.a.a and 2.K.19.3.2.a.a have the eigenvalues and Atkin-Lehner signs stored in the LMFDB.
 
 ### Hecke eigensystems
 Folder **hecke_evs_3_0** contains three subfolders - **data**, **data_nl_200** and **logs**.
