@@ -39,8 +39,9 @@ omf5, and the index of the form in its list):
     sage -python fix_old_form_fields.py BASEDIR NEWDIR RUNDIR DATADIR OUTDIR
 
 Writes OUTDIR/hecke_ev_3_0_N.dat for each level of ORBITS, and prints one line
-per orbit.  No orbit of these levels is in data_nl_200, and none has degree 14
-to 20, so fields.json is unchanged.
+per orbit.  One of these orbits, at the levels 488 and 976, is also in
+data_nl_200 (this script does not change it; fix_nl_200_old_fields.py does).
+None has degree 14 to 20, so fields.json is unchanged.
 """
 import os
 import re
