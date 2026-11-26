@@ -31,6 +31,9 @@ For each level N it writes OUTDIR/hecke_ev_K_J_N.dat, in the format of hecke_evs
     by these eigenvalues), its index in the ring of integers, nbound and the eigenvalue
     coordinates, as add_coordinates_14_20.orbit_data computes them; their field records
     (field_disc, its factorization, polredabs) go to OUTDIR/fields_K_J_N.json.
+    The new forms of type G of larger degree get 'trace_lambda_p_squared' instead: the
+    traces of T(p)^2 for p^2 < 200 ('NULL' at p | N), from which the loader gets the
+    traces of T(p^2).
 
 There is no run of level 1 (no lattice of discriminant 1), so an old form coming from
 level 1 is not recognized: this needs S_{k,j}(Sp(4, Z)) = 0, which holds for (4, 0),
@@ -141,6 +144,10 @@ def process(N, W, runs, wt0dir, outdir, summary):
                'atkin_lehner_string': al_string,
                'trace_lambda_p': ['NULL' if x == 'NULL' else int(x.trace()) for x in lambda_p],
                'trace_lambda_p_square': ['NULL' if x == 'NULL' else int(x.trace()) for x in lambda_p_square]}
+        if typ == 'G' and F.degree() > MAX_RING_DEGREE:
+            # no coordinates: the traces of T(p)^2, which the trace of T(p^2) needs
+            row['trace_lambda_p_squared'] = ['NULL' if x == 'NULL' else int((lp[p]**2).trace())
+                                             for p, x in zip(sq_ps, lambda_p_square)]
         if typ == 'G' and F.degree() <= MAX_RING_DEGREE:
             t0 = time.time()
             new, record = orbit_data(N, F, lambda_p, lambda_p_square)
